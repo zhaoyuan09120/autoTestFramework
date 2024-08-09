@@ -15,4 +15,4 @@ if __name__ == '__main__':
         pattern = run_pattern + ".py"
     suite = unittest.TestLoader().discover('./testCase', pattern=pattern)
     result = BeautifulReport(suite)
-    result.report(filename="report.html", description="测试报告", report_dir='./')
+    result.report(filename="report.html", description="测试报告", report_dir='./report')
