@@ -1,5 +1,5 @@
 host: 'http://note-api.wps.cn'
 sid1: 'V02Sw-JSqZJ06TWVRk0KaVv-ryEtLj800a4d0a690014151d2c'
 userid1: '336928044'
-sid2: 'V02Sw-JSqZJ06TWVRk0KaVv-ryEtLj800a4d0a690014151d2c'
-userid2: '336928044'
+invalid_wps_id: 'V02Sw-JSqZJ06TWVRk0KaVv-ryEtLj800a4d0a69001415222c'
+invalid_user_id: '123456789'

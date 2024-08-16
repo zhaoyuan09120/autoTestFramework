@@ -1,5 +1,7 @@
 import time
 import unittest
+from copy import deepcopy
+
 from parameterized import parameterized
 
 from business.dataClear import DataClear
@@ -20,6 +22,11 @@ class CreateNoteInput(unittest.TestCase):
     mustKeys = dataConfig['mustKeys']
     headers = {"Cookie": f"wps_sid={sid1}", "X-user-key": f"{userid1}"}
 
+    body_content_base = {"noteId": DataGenerator.generate_time_str() + "_noteId",
+                         "title": DataGenerator.generate_str_title(),
+                         "summary": DataGenerator.generate_str_summary(), "body": DataGenerator.generate_str_body(),
+                         "localContentVersion": 1, "BodyType": 0}
+
     def setUp(self):
         DataClear().note_clear()
 
@@ -35,8 +42,8 @@ class CreateNoteInput(unittest.TestCase):
         post(url=self.host + "/v3/notesvr/set/noteinfo", headers=self.headers, data=body_main, sid=self.sid1)
         step(f"构建便签主体，noteId:{body_main['noteId']}")
         step(f"新建便签内容")
-        body_content = {"noteId": body_main['noteId'], "title": "test", "summary": "test", "body": "test",
-                        "localContentVersion": 1, "BodyType": 0}
+        body_content = deepcopy(self.body_content_base)
+        body_content["noteId"] = body_main["noteId"]
         body_content.pop(key)
         res = post(url=self.host + "/v3/notesvr/set/notecontent", headers=self.headers, data=body_content,
                    sid=self.sid1)
@@ -52,9 +59,10 @@ class CreateNoteInput(unittest.TestCase):
         post(url=self.host + "/v3/notesvr/set/noteinfo", headers=self.headers, data=body_main, sid=self.sid1)
         step(f"构建便签主体，noteId:{body_main['noteId']}")
         step(f"新建便签内容")
-        body_content = {"noteId": body_main['noteId'], "title": "test", "summary": "test", "body": "test",
-                "localContentVersion": 1, "BodyType": 0}
-        res = post(url=self.host + "/v3/notesvr/set/notecontent", headers=self.headers, data=body_content, sid=self.sid1)
+        body_content = deepcopy(self.body_content_base)
+        body_content["noteId"] = body_main["noteId"]
+        res = post(url=self.host + "/v3/notesvr/set/notecontent", headers=self.headers, data=body_content,
+                   sid=self.sid1)
         self.assertEqual(500, res.status_code)
         expect = {"errorCode": -7, "errorMsg": "参数不合法！"}
         CheckOutput().output_check(expect=expect, actual=res.json())
@@ -67,9 +75,10 @@ class CreateNoteInput(unittest.TestCase):
         post(url=self.host + "/v3/notesvr/set/noteinfo", headers=self.headers, data=body_main, sid=self.sid1)
         step(f"构建便签主体，noteId:{body_main['noteId']}")
         step(f"新建便签内容")
-        body_content = {"noteId": body_main['noteId'], "title": "test", "summary": "test", "body": "test",
-                "localContentVersion": 1, "BodyType": 0}
-        res = post(url=self.host + "/v3/notesvr/set/notecontent", headers=self.headers, data=body_content, sid=self.sid1)
+        body_content = deepcopy(self.body_content_base)
+        body_content["noteId"] = body_main["noteId"]
+        res = post(url=self.host + "/v3/notesvr/set/notecontent", headers=self.headers, data=body_content,
+                   sid=self.sid1)
         self.assertEqual(500, res.status_code)
         expect = {"errorCode": -7, "errorMsg": "参数不合法！"}
         CheckOutput().output_check(expect=expect, actual=res.json())
@@ -82,9 +91,10 @@ class CreateNoteInput(unittest.TestCase):
         post(url=self.host + "/v3/notesvr/set/noteinfo", headers=self.headers, data=body_main, sid=self.sid1)
         step(f"构建便签主体，noteId:{body_main['noteId']}")
         step(f"新建便签内容")
-        body_content = {"noteId": body_main['noteId'], "title": "test", "summary": "test", "body": "test",
-                "localContentVersion": 1, "BodyType": 0}
-        res = post(url=self.host + "/v3/notesvr/set/notecontent", headers=self.headers, data=body_content, sid=self.sid1)
+        body_content = deepcopy(self.body_content_base)
+        body_content["noteId"] = body_main["noteId"]
+        res = post(url=self.host + "/v3/notesvr/set/notecontent", headers=self.headers, data=body_content,
+                   sid=self.sid1)
         self.assertEqual(200, res.status_code)
         expect = {"errorCode": -7, "errorMsg": "参数不合法！"}
         CheckOutput().output_check(expect=expect, actual=res.json())
@@ -97,9 +107,10 @@ class CreateNoteInput(unittest.TestCase):
         post(url=self.host + "/v3/notesvr/set/noteinfo", headers=self.headers, data=body_main, sid=self.sid1)
         step(f"构建便签主体，noteId:{body_main['noteId']}")
         step(f"新建便签内容")
-        body_content = {"noteId": body_main['noteId'], "title": "test", "summary": "test", "body": "test",
-                "localContentVersion": 1, "BodyType": 0}
-        res = post(url=self.host + "/v3/notesvr/set/notecontent", headers=self.headers, data=body_content, sid=self.sid1)
+        body_content = deepcopy(self.body_content_base)
+        body_content["noteId"] = body_main["noteId"]
+        res = post(url=self.host + "/v3/notesvr/set/notecontent", headers=self.headers, data=body_content,
+                   sid=self.sid1)
         self.assertEqual(200, res.status_code)
         expect = {"responseTime": int, "contentVersion": 1, "contentUpdateTime": int}
         CheckOutput().output_check(expect=expect, actual=res.json())
@@ -112,9 +123,11 @@ class CreateNoteInput(unittest.TestCase):
         post(url=self.host + "/v3/notesvr/set/noteinfo", headers=self.headers, data=body_main, sid=self.sid1)
         step(f"构建便签主体，noteId:{body_main['noteId']}")
         step(f"新建便签内容")
-        body_content = {"noteId": body_main['noteId'], "title": int(time.time() * 1000), "summary": "test", "body": "test",
-                "localContentVersion": 1, "BodyType": 0}
-        res = post(url=self.host + "/v3/notesvr/set/notecontent", headers=self.headers, data=body_content, sid=self.sid1)
+        body_content = deepcopy(self.body_content_base)
+        body_content["noteId"] = body_main["noteId"]
+        body_content["title"] = int(time.time() * 1000)
+        res = post(url=self.host + "/v3/notesvr/set/notecontent", headers=self.headers, data=body_content,
+                   sid=self.sid1)
         self.assertEqual(500, res.status_code)
         expect = {"errorCode": -7, "errorMsg": "参数不合法！"}
         CheckOutput().output_check(expect=expect, actual=res.json())
@@ -127,9 +140,11 @@ class CreateNoteInput(unittest.TestCase):
         post(url=self.host + "/v3/notesvr/set/noteinfo", headers=self.headers, data=body_main, sid=self.sid1)
         step(f"构建便签主体，noteId:{body_main['noteId']}")
         step(f"新建便签内容")
-        body_content = {"noteId": body_main['noteId'], "title": "%4￥#@&……", "summary": "test", "body": "test",
-                "localContentVersion": 1, "BodyType": 0}
-        res = post(url=self.host + "/v3/notesvr/set/notecontent", headers=self.headers, data=body_content, sid=self.sid1)
+        body_content = deepcopy(self.body_content_base)
+        body_content["noteId"] = body_main["noteId"]
+        body_content["title"] = "%4￥#@&……"
+        res = post(url=self.host + "/v3/notesvr/set/notecontent", headers=self.headers, data=body_content,
+                   sid=self.sid1)
         self.assertEqual(500, res.status_code)
         expect = {"responseTime": int, "contentVersion": 1, "contentUpdateTime": int}
         CheckOutput().output_check(expect=expect, actual=res.json())
@@ -142,9 +157,11 @@ class CreateNoteInput(unittest.TestCase):
         post(url=self.host + "/v3/notesvr/set/noteinfo", headers=self.headers, data=body_main, sid=self.sid1)
         step(f"构建便签主体，noteId:{body_main['noteId']}")
         step(f"新建便签内容")
-        body_content = {"noteId": body_main['noteId'], "title": None, "summary": "test", "body": "test",
-                "localContentVersion": 1, "BodyType": 0}
-        res = post(url=self.host + "/v3/notesvr/set/notecontent", headers=self.headers, data=body_content, sid=self.sid1)
+        body_content = deepcopy(self.body_content_base)
+        body_content["noteId"] = body_main["noteId"]
+        body_content["title"] = None
+        res = post(url=self.host + "/v3/notesvr/set/notecontent", headers=self.headers, data=body_content,
+                   sid=self.sid1)
         self.assertEqual(200, res.status_code)
         expect = {"errorCode": -7, "errorMsg": "参数不合法！"}
         CheckOutput().output_check(expect=expect, actual=res.json())
@@ -157,9 +174,11 @@ class CreateNoteInput(unittest.TestCase):
         post(url=self.host + "/v3/notesvr/set/noteinfo", headers=self.headers, data=body_main, sid=self.sid1)
         step(f"构建便签主体，noteId:{body_main['noteId']}")
         step(f"新建便签内容")
-        body_content = {"noteId": body_main['noteId'], "title": "测试标题", "summary": "test", "body": "test",
-                "localContentVersion": 1, "BodyType": 0}
-        res = post(url=self.host + "/v3/notesvr/set/notecontent", headers=self.headers, data=body_content, sid=self.sid1)
+        body_content = deepcopy(self.body_content_base)
+        body_content["noteId"] = body_main["noteId"]
+        body_content["title"] = "测试标题"
+        res = post(url=self.host + "/v3/notesvr/set/notecontent", headers=self.headers, data=body_content,
+                   sid=self.sid1)
         self.assertEqual(200, res.status_code)
         expect = {"responseTime": int, "contentVersion": 1, "contentUpdateTime": int}
         CheckOutput().output_check(expect=expect, actual=res.json())
@@ -172,9 +191,11 @@ class CreateNoteInput(unittest.TestCase):
         post(url=self.host + "/v3/notesvr/set/noteinfo", headers=self.headers, data=body_main, sid=self.sid1)
         step(f"构建便签主体，noteId:{body_main['noteId']}")
         step(f"新建便签内容")
-        body_content = {"noteId": body_main['noteId'], "title": "test", "summary": int(time.time() * 1000), "body": "test",
-                "localContentVersion": 1, "BodyType": 0}
-        res = post(url=self.host + "/v3/notesvr/set/notecontent", headers=self.headers, data=body_content, sid=self.sid1)
+        body_content = deepcopy(self.body_content_base)
+        body_content["noteId"] = body_main["noteId"]
+        body_content["summary"] = int(time.time() * 1000)
+        res = post(url=self.host + "/v3/notesvr/set/notecontent", headers=self.headers, data=body_content,
+                   sid=self.sid1)
         self.assertEqual(500, res.status_code)
         expect = {"errorCode": -7, "errorMsg": "参数不合法！"}
         CheckOutput().output_check(expect=expect, actual=res.json())
@@ -187,9 +208,11 @@ class CreateNoteInput(unittest.TestCase):
         post(url=self.host + "/v3/notesvr/set/noteinfo", headers=self.headers, data=body_main, sid=self.sid1)
         step(f"构建便签主体，noteId:{body_main['noteId']}")
         step(f"新建便签内容")
-        body_content = {"noteId": body_main['noteId'], "title": "test", "summary": "%4￥#@&……", "body": "test",
-                "localContentVersion": 1, "BodyType": 0}
-        res = post(url=self.host + "/v3/notesvr/set/notecontent", headers=self.headers, data=body_content, sid=self.sid1)
+        body_content = deepcopy(self.body_content_base)
+        body_content["noteId"] = body_main["noteId"]
+        body_content["summary"] = "%4￥#@&……"
+        res = post(url=self.host + "/v3/notesvr/set/notecontent", headers=self.headers, data=body_content,
+                   sid=self.sid1)
         self.assertEqual(500, res.status_code)
         expect = {"responseTime": int, "contentVersion": 1, "contentUpdateTime": int}
         CheckOutput().output_check(expect=expect, actual=res.json())
@@ -202,9 +225,11 @@ class CreateNoteInput(unittest.TestCase):
         post(url=self.host + "/v3/notesvr/set/noteinfo", headers=self.headers, data=body_main, sid=self.sid1)
         step(f"构建便签主体，noteId:{body_main['noteId']}")
         step(f"新建便签内容")
-        body_content = {"noteId": body_main['noteId'], "title": "test", "summary": None, "body": "test",
-                "localContentVersion": 1, "BodyType": 0}
-        res = post(url=self.host + "/v3/notesvr/set/notecontent", headers=self.headers, data=body_content, sid=self.sid1)
+        body_content = deepcopy(self.body_content_base)
+        body_content["noteId"] = body_main["noteId"]
+        body_content["summary"] = None
+        res = post(url=self.host + "/v3/notesvr/set/notecontent", headers=self.headers, data=body_content,
+                   sid=self.sid1)
         self.assertEqual(200, res.status_code)
         expect = {"errorCode": -7, "errorMsg": "参数不合法！"}
         CheckOutput().output_check(expect=expect, actual=res.json())
@@ -217,9 +242,11 @@ class CreateNoteInput(unittest.TestCase):
         post(url=self.host + "/v3/notesvr/set/noteinfo", headers=self.headers, data=body_main, sid=self.sid1)
         step(f"构建便签主体，noteId:{body_main['noteId']}")
         step(f"新建便签内容")
-        body_content = {"noteId": body_main['noteId'], "title": "test", "summary": "测试摘要", "body": "test",
-                "localContentVersion": 1, "BodyType": 0}
-        res = post(url=self.host + "/v3/notesvr/set/notecontent", headers=self.headers, data=body_content, sid=self.sid1)
+        body_content = deepcopy(self.body_content_base)
+        body_content["noteId"] = body_main["noteId"]
+        body_content["summary"] = "测试摘要"
+        res = post(url=self.host + "/v3/notesvr/set/notecontent", headers=self.headers, data=body_content,
+                   sid=self.sid1)
         self.assertEqual(200, res.status_code)
         expect = {"responseTime": int, "contentVersion": 1, "contentUpdateTime": int}
         CheckOutput().output_check(expect=expect, actual=res.json())
@@ -232,9 +259,11 @@ class CreateNoteInput(unittest.TestCase):
         post(url=self.host + "/v3/notesvr/set/noteinfo", headers=self.headers, data=body_main, sid=self.sid1)
         step(f"构建便签主体，noteId:{body_main['noteId']}")
         step(f"新建便签内容")
-        body_content = {"noteId": body_main['noteId'], "title": "test", "summary": "test", "body": int(time.time() * 1000),
-                "localContentVersion": 1, "BodyType": 0}
-        res = post(url=self.host + "/v3/notesvr/set/notecontent", headers=self.headers, data=body_content, sid=self.sid1)
+        body_content = deepcopy(self.body_content_base)
+        body_content["noteId"] = body_main["noteId"]
+        body_content["body"] = int(time.time() * 1000)
+        res = post(url=self.host + "/v3/notesvr/set/notecontent", headers=self.headers, data=body_content,
+                   sid=self.sid1)
         self.assertEqual(500, res.status_code)
         expect = {"errorCode": -7, "errorMsg": "参数不合法！"}
         CheckOutput().output_check(expect=expect, actual=res.json())
@@ -247,9 +276,11 @@ class CreateNoteInput(unittest.TestCase):
         post(url=self.host + "/v3/notesvr/set/noteinfo", headers=self.headers, data=body_main, sid=self.sid1)
         step(f"构建便签主体，noteId:{body_main['noteId']}")
         step(f"新建便签内容")
-        body_content = {"noteId": body_main['noteId'], "title": "test", "summary": "test", "body": "%4￥#@&……",
-                "localContentVersion": 1, "BodyType": 0}
-        res = post(url=self.host + "/v3/notesvr/set/notecontent", headers=self.headers, data=body_content, sid=self.sid1)
+        body_content = deepcopy(self.body_content_base)
+        body_content["noteId"] = body_main["noteId"]
+        body_content["body"] = "%4￥#@&……"
+        res = post(url=self.host + "/v3/notesvr/set/notecontent", headers=self.headers, data=body_content,
+                   sid=self.sid1)
         self.assertEqual(500, res.status_code)
         expect = {"responseTime": int, "contentVersion": 1, "contentUpdateTime": int}
         CheckOutput().output_check(expect=expect, actual=res.json())
@@ -262,9 +293,11 @@ class CreateNoteInput(unittest.TestCase):
         post(url=self.host + "/v3/notesvr/set/noteinfo", headers=self.headers, data=body_main, sid=self.sid1)
         step(f"构建便签主体，noteId:{body_main['noteId']}")
         step(f"新建便签内容")
-        body_content = {"noteId": body_main['noteId'], "title": "test", "summary": "test", "body": None,
-                "localContentVersion": 1, "BodyType": 0}
-        res = post(url=self.host + "/v3/notesvr/set/notecontent", headers=self.headers, data=body_content, sid=self.sid1)
+        body_content = deepcopy(self.body_content_base)
+        body_content["noteId"] = body_main["noteId"]
+        body_content["body"] = None
+        res = post(url=self.host + "/v3/notesvr/set/notecontent", headers=self.headers, data=body_content,
+                   sid=self.sid1)
         self.assertEqual(200, res.status_code)
         expect = {"errorCode": -7, "errorMsg": "参数不合法！"}
         CheckOutput().output_check(expect=expect, actual=res.json())
@@ -277,9 +310,11 @@ class CreateNoteInput(unittest.TestCase):
         post(url=self.host + "/v3/notesvr/set/noteinfo", headers=self.headers, data=body_main, sid=self.sid1)
         step(f"构建便签主体，noteId:{body_main['noteId']}")
         step(f"新建便签内容")
-        body_content = {"noteId": body_main['noteId'], "title": "test", "summary": "test", "body": "测试正文内容",
-                "localContentVersion": 1, "BodyType": 0}
-        res = post(url=self.host + "/v3/notesvr/set/notecontent", headers=self.headers, data=body_content, sid=self.sid1)
+        body_content = deepcopy(self.body_content_base)
+        body_content["noteId"] = body_main["noteId"]
+        body_content["body"] = "测试正文内容"
+        res = post(url=self.host + "/v3/notesvr/set/notecontent", headers=self.headers, data=body_content,
+                   sid=self.sid1)
         self.assertEqual(200, res.status_code)
         expect = {"responseTime": int, "contentVersion": 1, "contentUpdateTime": int}
         CheckOutput().output_check(expect=expect, actual=res.json())
@@ -292,9 +327,11 @@ class CreateNoteInput(unittest.TestCase):
         post(url=self.host + "/v3/notesvr/set/noteinfo", headers=self.headers, data=body_main, sid=self.sid1)
         step(f"构建便签主体，noteId:{body_main['noteId']}")
         step(f"新建便签内容")
-        body_content = {"noteId": body_main['noteId'], "title": "test", "summary": "test", "body": "test",
-                "localContentVersion": "0", "BodyType": 0}
-        res = post(url=self.host + "/v3/notesvr/set/notecontent", headers=self.headers, data=body_content, sid=self.sid1)
+        body_content = deepcopy(self.body_content_base)
+        body_content["noteId"] = body_main["noteId"]
+        body_content["localContentVersion"] = "0"
+        res = post(url=self.host + "/v3/notesvr/set/notecontent", headers=self.headers, data=body_content,
+                   sid=self.sid1)
         self.assertEqual(200, res.status_code)
         expect = {"errorCode": -7, "errorMsg": "参数不合法！"}
         CheckOutput().output_check(expect=expect, actual=res.json())
@@ -307,9 +344,11 @@ class CreateNoteInput(unittest.TestCase):
         post(url=self.host + "/v3/notesvr/set/noteinfo", headers=self.headers, data=body_main, sid=self.sid1)
         step(f"构建便签主体，noteId:{body_main['noteId']}")
         step(f"新建便签内容")
-        body_content = {"noteId": body_main['noteId'], "title": "test", "summary": "test", "body": "test",
-                "localContentVersion": 0, "BodyType": 0}
-        res = post(url=self.host + "/v3/notesvr/set/notecontent", headers=self.headers, data=body_content, sid=self.sid1)
+        body_content = deepcopy(self.body_content_base)
+        body_content["noteId"] = body_main["noteId"]
+        body_content["localContentVersion"] = 0
+        res = post(url=self.host + "/v3/notesvr/set/notecontent", headers=self.headers, data=body_content,
+                   sid=self.sid1)
         self.assertEqual(200, res.status_code)
         expect = {"responseTime": int, "contentVersion": 1, "contentUpdateTime": int}
         CheckOutput().output_check(expect=expect, actual=res.json())
@@ -322,9 +361,11 @@ class CreateNoteInput(unittest.TestCase):
         post(url=self.host + "/v3/notesvr/set/noteinfo", headers=self.headers, data=body_main, sid=self.sid1)
         step(f"构建便签主体，noteId:{body_main['noteId']}")
         step(f"新建便签内容")
-        body_content = {"noteId": body_main['noteId'], "title": "test", "summary": "test", "body": "test",
-                "localContentVersion": 0.0, "BodyType": 0}
-        res = post(url=self.host + "/v3/notesvr/set/notecontent", headers=self.headers, data=body_content, sid=self.sid1)
+        body_content = deepcopy(self.body_content_base)
+        body_content["noteId"] = body_main["noteId"]
+        body_content["localContentVersion"] = 0.0
+        res = post(url=self.host + "/v3/notesvr/set/notecontent", headers=self.headers, data=body_content,
+                   sid=self.sid1)
         self.assertEqual(200, res.status_code)
         expect = {"errorCode": -7, "errorMsg": "参数不合法！"}
         CheckOutput().output_check(expect=expect, actual=res.json())
@@ -337,9 +378,11 @@ class CreateNoteInput(unittest.TestCase):
         post(url=self.host + "/v3/notesvr/set/noteinfo", headers=self.headers, data=body_main, sid=self.sid1)
         step(f"构建便签主体，noteId:{body_main['noteId']}")
         step(f"新建便签内容")
-        body_content = {"noteId": body_main['noteId'], "title": "test", "summary": "test", "body": "test",
-                "localContentVersion": None, "BodyType": 0}
-        res = post(url=self.host + "/v3/notesvr/set/notecontent", headers=self.headers, data=body_content, sid=self.sid1)
+        body_content = deepcopy(self.body_content_base)
+        body_content["noteId"] = body_main["noteId"]
+        body_content["localContentVersion"] = None
+        res = post(url=self.host + "/v3/notesvr/set/notecontent", headers=self.headers, data=body_content,
+                   sid=self.sid1)
         self.assertEqual(200, res.status_code)
         expect = {"errorCode": -7, "errorMsg": "参数不合法！"}
         CheckOutput().output_check(expect=expect, actual=res.json())

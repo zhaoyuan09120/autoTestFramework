@@ -9,6 +9,24 @@ fk = Faker(locale='zh_CN')
 class DataGenerator:
 
     @staticmethod
+    def generate_str_title():
+        """生成字符串标题"""
+        alpha = [chr(i) for i in range(65, 91)] + [chr(i) for i in range(97, 123)]
+        return ''.join(random.choices(alpha, k=10)) + "_title"
+
+    @staticmethod
+    def generate_str_summary():
+        """生成字符串摘要"""
+        alpha = [chr(i) for i in range(65, 91)] + [chr(i) for i in range(97, 123)]
+        return ''.join(random.choices(alpha, k=50)) + "_summary"
+
+    @staticmethod
+    def generate_str_body():
+        """生成字符串内容"""
+        alpha = [chr(i) for i in range(65, 91)] + [chr(i) for i in range(97, 123)]
+        return ''.join(random.choices(alpha, k=100)) + "_body"
+
+    @staticmethod
     def generate_time_int():
         """生成当前时间戳为int类型"""
         return int(time.time() * 1000)
@@ -105,3 +123,16 @@ class DataGenerator:
         cryto_msg = rsa.encrypt(msg, public_key_obj)  # 生成加密文本
         cipher_base64 = base64.b64encode(cryto_msg)  # 将加密文本转化为 base64 编码
         return cipher_base64.decode()
+
+
+import random
+
+
+def generate_random_alpha(length):
+    alpha = [chr(i) for i in range(65, 91)] + [chr(i) for i in range(97, 123)]
+    return ''.join(random.choices(alpha, k=length)) + "_title"
+
+
+# 生成一个长度为5的随机字符串
+print(generate_random_alpha(10))
+print(type(generate_random_alpha(10)))

@@ -143,6 +143,7 @@ class FileAppTestCase(unittest.TestCase):
         self.assertEqual(data['file_id'], recv_body["file_id"])  # 校验file_id的值和fileApp的输入是否一致
         self.assertEqual('file', file_recv['path'])  # 校验请求路径是否正确
         info("桩回复消息")
+
         send_data = {"body": {"msg": "failed"}, "code": 403}
         fileAppStub.send(send_data)
         expect = {"msg": "SERVER ERROR"}

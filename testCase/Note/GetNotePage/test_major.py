@@ -1,7 +1,7 @@
 import unittest
 from business.dataClear import DataClear
 from business.dataCreate import DataCreate
-from common.logsMethod import  step
+from common.logsMethod import step
 from common.checkOutput import CheckOutput
 from common.logsMethod import class_case_log
 from business.apiRe import get
@@ -14,7 +14,6 @@ class GetNotePageMajor(unittest.TestCase):
     userid1 = envConfig['userid1']
     sid1 = envConfig['sid1']
     host = envConfig['host']
-    headers = {"Cookie": f"wps_sid={sid1}", "X-user-key": f"{userid1}"}
 
     def setUp(self):
         DataClear().note_clear()

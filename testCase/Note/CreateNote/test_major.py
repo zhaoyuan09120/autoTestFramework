@@ -17,6 +17,11 @@ class CreateNoteMajor(unittest.TestCase):
     host = envConfig['host']
     headers = {"Cookie": f"wps_sid={sid1}", "X-user-key": f"{userid1}"}
 
+    body_content_base = {"noteId": DataGenerator.generate_time_str() + "_noteId",
+                         "title": DataGenerator.generate_str_title(),
+                         "summary": DataGenerator.generate_str_summary(), "body": DataGenerator.generate_str_body(),
+                         "localContentVersion": 1, "BodyType": 0}
+
     def setUp(self):
         DataClear().note_clear()
 
@@ -30,8 +35,8 @@ class CreateNoteMajor(unittest.TestCase):
         post(url=self.host + "/v3/notesvr/set/noteinfo", headers=self.headers, data=body_main, sid=self.sid1)
         step(f"构建便签主体，noteId:{body_main['noteId']}")
         step(f"新建便签内容")
-        body_content = {"noteId": body_main['noteId'], "title": "test", "summary": "test", "body": "test",
-                        "localContentVersion": 1, "BodyType": 0}
+        body_content = copy.deepcopy(self.body_content_base)
+        body_content['noteId'] = body_main['noteId']
         res = post(url=self.host + "/v3/notesvr/set/notecontent", headers=self.headers, data=body_content,
                    sid=self.sid1)
         self.assertEqual(200, res.status_code)
@@ -45,14 +50,15 @@ class CreateNoteMajor(unittest.TestCase):
         post(url=self.host + "/v3/notesvr/set/noteinfo", headers=self.headers, data=body_main, sid=self.sid1)
         step(f"构建便签主体，noteId:{body_main['noteId']}")
         step(f"新建便签内容")
-        body_content = {"noteId": body_main['noteId'], "title": "test", "summary": "test", "body": "test",
-                        "localContentVersion": 1, "BodyType": 0}
-        res_content = post(url=self.host + "/v3/notesvr/set/notecontent", headers=self.headers, data=body_content, sid=self.sid1)
+        body_content = copy.deepcopy(self.body_content_base)
+        body_content['noteId'] = body_main['noteId']
+        res_content = post(url=self.host + "/v3/notesvr/set/notecontent", headers=self.headers, data=body_content,
+                           sid=self.sid1)
         body_update = copy.deepcopy(body_content)
         body_update['noteId'] = body_content['noteId']
-        body_update["title"] = "testUpdateTitle"
-        body_update["summary"] = "testUpdateSummary"
-        body_update["body"] = "testUpdateBody"
+        body_update["title"] = DataGenerator.generate_str_title()
+        body_update["summary"] = DataGenerator.generate_str_summary()
+        body_update["body"] = DataGenerator.generate_str_body()
         body_update["localContentVersion"] = body_content['localContentVersion']
         body_update["BodyType"] = body_content['BodyType']
         step("更新便签")
