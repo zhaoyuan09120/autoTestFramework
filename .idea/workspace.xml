@@ -1,0 +1,1562 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5adac0b9-e8d5-4b3d-b04c-87d12eb5e78f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Chapter_10/Love/tets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../apiTestPlatform/apiTestPlatform/TestInterface/serializer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../apiframework/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../apiframework/.idea/apiframework.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../apiframework/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../apiframework/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../apiframework/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../apiframework/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../apiframework/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../apiframework/api/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../apiframework/api/basic/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../apiframework/api/buyer/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../apiframework/api/buyer/buyer_login_apis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../apiframework/api/manager/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../apiframework/api/seller/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../apiframework/common/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../apiframework/common/client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../apiframework/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../apiframework/pytest.ini.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../apiframework/run.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../apiframework/testcases/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day11_account/.idea/day11_account.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../djangoProject1/testapp/crypto_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../filecenter/filecenter/filecenter/celery_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../filecenter/filecenter/filehandler/tasks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/.idea/gx.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/.idea/day16.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/Monaco.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/middleware/auth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/migrations/0004_alter_userinfo_create_time_alter_userinfo_depart_and_more.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/migrations/0005_prettynum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/migrations/0006_admin_alter_prettynum_level_alter_prettynum_status.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/migrations/0007_alter_prettynum_level_task.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/migrations/0008_alter_prettynum_level_alter_userinfo_gender_order.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/img/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/img/code.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/js/jquery-3.6.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-3.4.1/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-3.4.1/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-3.4.1/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-3.4.1/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-3.4.1/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-3.4.1/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-3.4.1/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-3.4.1/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-3.4.1/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-3.4.1/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-3.4.1/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-3.4.1/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-3.4.1/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-3.4.1/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-3.4.1/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-3.4.1/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.standalone.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.standalone.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.standalone.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.standalone.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.standalone.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.standalone.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker-en-CA.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.ar-tn.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.ar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.az.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.bg.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.bm.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.bn.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.br.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.bs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.ca.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.cs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.cy.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.da.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.de.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.el.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.en-AU.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.en-CA.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.en-GB.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.en-IE.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.en-NZ.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.en-ZA.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.eo.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.es.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.et.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.eu.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.fa.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.fi.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.fo.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.fr-CH.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.fr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.gl.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.he.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.hi.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.hr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.hu.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.hy.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.id.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.is.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.it-CH.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.it.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.ja.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.ka.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.kh.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.kk.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.km.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.ko.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.kr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.lt.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.lv.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.me.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.mk.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.mn.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.ms.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.nl-BE.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.nl.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.no.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.oc.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.pl.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.pt-BR.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.pt.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.ro.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.rs-latin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.rs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.ru.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.si.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.sk.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.sl.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.sq.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.sr-latin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.sr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.sv.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.sw.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.ta.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.tg.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.th.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.tk.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.tr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.uk.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.uz-cyrl.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.uz-latn.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.vi.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-TW.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/font-awesome-4.7.0/HELP-US-OUT.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/font-awesome-4.7.0/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/font-awesome-4.7.0/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/font-awesome-4.7.0/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/font-awesome-4.7.0/less/animated.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/font-awesome-4.7.0/less/bordered-pulled.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/font-awesome-4.7.0/less/core.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/font-awesome-4.7.0/less/fixed-width.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/font-awesome-4.7.0/less/font-awesome.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/font-awesome-4.7.0/less/icons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/font-awesome-4.7.0/less/larger.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/font-awesome-4.7.0/less/list.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/font-awesome-4.7.0/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/font-awesome-4.7.0/less/path.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/font-awesome-4.7.0/less/rotated-flipped.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/font-awesome-4.7.0/less/screen-reader.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/font-awesome-4.7.0/less/stacked.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/font-awesome-4.7.0/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/font-awesome-4.7.0/scss/_animated.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/font-awesome-4.7.0/scss/_bordered-pulled.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/font-awesome-4.7.0/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/font-awesome-4.7.0/scss/_fixed-width.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/font-awesome-4.7.0/scss/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/font-awesome-4.7.0/scss/_larger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/font-awesome-4.7.0/scss/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/font-awesome-4.7.0/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/font-awesome-4.7.0/scss/_path.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/font-awesome-4.7.0/scss/_rotated-flipped.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/font-awesome-4.7.0/scss/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/font-awesome-4.7.0/scss/_stacked.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/font-awesome-4.7.0/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/static/plugins/font-awesome-4.7.0/scss/font-awesome.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/templates/admin_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/templates/change.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/templates/depart_add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/templates/depart_edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/templates/depart_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/templates/error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/templates/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/templates/order_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/templates/pretty_add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/templates/pretty_edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/templates/pretty_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/templates/task_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/templates/user_add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/templates/user_edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/templates/user_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/templates/user_model_form_add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/utils/bootstrap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/utils/code.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/utils/encrypt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/utils/form.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/utils/pagination.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/views/account.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/views/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/views/depart.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/views/order.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/views/pretty.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/views/task.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/app01/views/user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/day16/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/day16/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/day16/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/day16/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/day16/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/day16/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/.idea/mysite2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/img/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/js/jquery-3.6.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-3.4.1/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-3.4.1/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-3.4.1/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-3.4.1/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-3.4.1/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-3.4.1/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-3.4.1/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-3.4.1/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-3.4.1/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-3.4.1/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-3.4.1/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-3.4.1/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-3.4.1/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-3.4.1/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-3.4.1/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-3.4.1/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.standalone.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.standalone.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.standalone.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.standalone.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.standalone.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.standalone.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker-en-CA.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.ar-tn.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.ar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.az.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.bg.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.bm.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.bn.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.br.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.bs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.ca.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.cs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.cy.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.da.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.de.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.el.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.en-AU.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.en-CA.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.en-GB.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.en-IE.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.en-NZ.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.en-ZA.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.eo.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.es.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.et.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.eu.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.fa.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.fi.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.fo.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.fr-CH.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.fr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.gl.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.he.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.hi.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.hr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.hu.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.hy.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.id.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.is.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.it-CH.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.it.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.ja.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.ka.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.kh.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.kk.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.km.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.ko.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.kr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.lt.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.lv.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.me.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.mk.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.mn.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.ms.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.nl-BE.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.nl.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.no.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.oc.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.pl.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.pt-BR.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.pt.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.ro.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.rs-latin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.rs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.ru.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.si.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.sk.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.sl.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.sq.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.sr-latin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.sr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.sv.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.sw.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.ta.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.tg.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.th.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.tk.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.tr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.uk.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.uz-cyrl.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.uz-latn.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.vi.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-TW.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/font-awesome-4.7.0/HELP-US-OUT.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/font-awesome-4.7.0/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/font-awesome-4.7.0/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/font-awesome-4.7.0/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/font-awesome-4.7.0/less/animated.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/font-awesome-4.7.0/less/bordered-pulled.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/font-awesome-4.7.0/less/core.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/font-awesome-4.7.0/less/fixed-width.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/font-awesome-4.7.0/less/font-awesome.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/font-awesome-4.7.0/less/icons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/font-awesome-4.7.0/less/larger.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/font-awesome-4.7.0/less/list.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/font-awesome-4.7.0/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/font-awesome-4.7.0/less/path.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/font-awesome-4.7.0/less/rotated-flipped.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/font-awesome-4.7.0/less/screen-reader.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/font-awesome-4.7.0/less/stacked.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/font-awesome-4.7.0/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/font-awesome-4.7.0/scss/_animated.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/font-awesome-4.7.0/scss/_bordered-pulled.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/font-awesome-4.7.0/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/font-awesome-4.7.0/scss/_fixed-width.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/font-awesome-4.7.0/scss/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/font-awesome-4.7.0/scss/_larger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/font-awesome-4.7.0/scss/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/font-awesome-4.7.0/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/font-awesome-4.7.0/scss/_path.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/font-awesome-4.7.0/scss/_rotated-flipped.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/font-awesome-4.7.0/scss/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/font-awesome-4.7.0/scss/_stacked.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/font-awesome-4.7.0/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/static/plugins/font-awesome-4.7.0/scss/font-awesome.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/templates/info_add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/templates/info_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/templates/news.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/templates/tpl.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/app01/templates/user_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/mysite2/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/mysite2/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/mysite2/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/mysite2/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/mysite2/mysite2/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/project12/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/project12/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/project12/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/project12/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/project12/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/project12/.idea/project12.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/project12/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/project12/common/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/project12/common/assert_util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/project12/common/database_util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/project12/common/ddt_util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/project12/common/logger_util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/project12/common/requests_util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/project12/common/yaml_util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/project12/config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/project12/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/project12/extract.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/project12/hotloads/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/project12/hotloads/debugtalk.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/project12/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/project12/run.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/project12/temps/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/project12/testcases/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/project12/testcases/user_manager/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/project12/testcases/user_manager/get_token.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/project12/testcases/user_manager/test_weixin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/s25/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/s25/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/s25/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/s25/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/s25/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/s25/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/s25/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/s25/.idea/s25.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/s25/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/s25/app01/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/s25/app01/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/s25/app01/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/s25/app01/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/s25/app01/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/s25/app01/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/s25/app01/templates/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/s25/app01/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/s25/app01/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/s25/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/s25/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/s25/s25/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/s25/s25/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/s25/s25/loacl_settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/s25/s25/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/s25/s25/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/s25/s25/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/s25/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/s25/utils/tencent/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/test_py/.idea/test_py.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/test_py/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/test_py/pytest.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/test_py/run.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/test_py/testcases/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/test_py/testcases/product_manager/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/test_py/testcases/product_manager/test_product.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/test_py/testcases/user_manager/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx/test_py/testcases/user_manager/test_api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_css_01/.idea/gx_css_01.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_css_01/static/js/jquery-3.6.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_css_01/static/plugins/bootstrap-3.4.1/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_css_01/static/plugins/bootstrap-3.4.1/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_css_01/static/plugins/bootstrap-3.4.1/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_css_01/static/plugins/bootstrap-3.4.1/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_css_01/static/plugins/bootstrap-3.4.1/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_css_01/static/plugins/bootstrap-3.4.1/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_css_01/static/plugins/bootstrap-3.4.1/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_css_01/static/plugins/bootstrap-3.4.1/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_css_01/static/plugins/bootstrap-3.4.1/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_css_01/static/plugins/bootstrap-3.4.1/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_css_01/static/plugins/bootstrap-3.4.1/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_css_01/static/plugins/bootstrap-3.4.1/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_css_01/static/plugins/bootstrap-3.4.1/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_css_01/static/plugins/bootstrap-3.4.1/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_css_01/static/plugins/bootstrap-3.4.1/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_css_01/static/plugins/bootstrap-3.4.1/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_css_01/static/plugins/font-awesome-4.7.0/font-awesome-4.7.0/HELP-US-OUT.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_css_01/static/plugins/font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_css_01/static/plugins/font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_css_01/static/plugins/font-awesome-4.7.0/font-awesome-4.7.0/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_css_01/static/plugins/font-awesome-4.7.0/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_css_01/static/plugins/font-awesome-4.7.0/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_css_01/static/plugins/font-awesome-4.7.0/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_css_01/static/plugins/font-awesome-4.7.0/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_css_01/static/plugins/font-awesome-4.7.0/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_css_01/static/plugins/font-awesome-4.7.0/font-awesome-4.7.0/less/animated.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_css_01/static/plugins/font-awesome-4.7.0/font-awesome-4.7.0/less/bordered-pulled.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_css_01/static/plugins/font-awesome-4.7.0/font-awesome-4.7.0/less/core.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_css_01/static/plugins/font-awesome-4.7.0/font-awesome-4.7.0/less/fixed-width.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_css_01/static/plugins/font-awesome-4.7.0/font-awesome-4.7.0/less/font-awesome.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_css_01/static/plugins/font-awesome-4.7.0/font-awesome-4.7.0/less/icons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_css_01/static/plugins/font-awesome-4.7.0/font-awesome-4.7.0/less/larger.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_css_01/static/plugins/font-awesome-4.7.0/font-awesome-4.7.0/less/list.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_css_01/static/plugins/font-awesome-4.7.0/font-awesome-4.7.0/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_css_01/static/plugins/font-awesome-4.7.0/font-awesome-4.7.0/less/path.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_css_01/static/plugins/font-awesome-4.7.0/font-awesome-4.7.0/less/rotated-flipped.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_css_01/static/plugins/font-awesome-4.7.0/font-awesome-4.7.0/less/screen-reader.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_css_01/static/plugins/font-awesome-4.7.0/font-awesome-4.7.0/less/stacked.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_css_01/static/plugins/font-awesome-4.7.0/font-awesome-4.7.0/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_css_01/static/plugins/font-awesome-4.7.0/font-awesome-4.7.0/scss/_animated.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_css_01/static/plugins/font-awesome-4.7.0/font-awesome-4.7.0/scss/_bordered-pulled.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_css_01/static/plugins/font-awesome-4.7.0/font-awesome-4.7.0/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_css_01/static/plugins/font-awesome-4.7.0/font-awesome-4.7.0/scss/_fixed-width.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_css_01/static/plugins/font-awesome-4.7.0/font-awesome-4.7.0/scss/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_css_01/static/plugins/font-awesome-4.7.0/font-awesome-4.7.0/scss/_larger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_css_01/static/plugins/font-awesome-4.7.0/font-awesome-4.7.0/scss/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_css_01/static/plugins/font-awesome-4.7.0/font-awesome-4.7.0/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_css_01/static/plugins/font-awesome-4.7.0/font-awesome-4.7.0/scss/_path.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_css_01/static/plugins/font-awesome-4.7.0/font-awesome-4.7.0/scss/_rotated-flipped.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_css_01/static/plugins/font-awesome-4.7.0/font-awesome-4.7.0/scss/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_css_01/static/plugins/font-awesome-4.7.0/font-awesome-4.7.0/scss/_stacked.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_css_01/static/plugins/font-awesome-4.7.0/font-awesome-4.7.0/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_css_01/static/plugins/font-awesome-4.7.0/font-awesome-4.7.0/scss/font-awesome.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_css_01/初始bootstrap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_css_01/后台管理+面板.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_css_01/后台管理.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/.idea/gx_day01_demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/js/jquery-3.6.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-3.4.1/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-3.4.1/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-3.4.1/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-3.4.1/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-3.4.1/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-3.4.1/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-3.4.1/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-3.4.1/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-3.4.1/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-3.4.1/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-3.4.1/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-3.4.1/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-3.4.1/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-3.4.1/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-3.4.1/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-3.4.1/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/.jshintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/Gruntfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/build/build.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/build/build_standalone.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/css/bootstrap-datetimepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/js/bootstrap-datetimepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.ar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.az.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.bg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.bn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.cs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.da.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.ee.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.el.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.fi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.he.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.hr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.hu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.hy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.id.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.is.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.ja.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.ka.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.ko.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.lt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.lv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.ms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.nb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.no.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.pt-BR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.pt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.ro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.rs-latin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.rs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.sk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.sl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.sv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.sw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.th.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.tr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.ua.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.uk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.zh-CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.zh-TW.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/less/datetimepicker.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/minify.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/sample in bootstrap v2/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/sample in bootstrap v2/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/sample in bootstrap v2/bootstrap/img/glyphicons-halflings-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/sample in bootstrap v2/bootstrap/img/glyphicons-halflings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/sample in bootstrap v2/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/sample in bootstrap v2/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/sample in bootstrap v2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/sample in bootstrap v2/jquery/jquery-1.8.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/sample in bootstrap v3/bootstrap/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/sample in bootstrap v3/bootstrap/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/sample in bootstrap v3/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/sample in bootstrap v3/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/sample in bootstrap v3/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/sample in bootstrap v3/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/sample in bootstrap v3/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/sample in bootstrap v3/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/sample in bootstrap v3/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/sample in bootstrap v3/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/sample in bootstrap v3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/sample in bootstrap v3/jquery/jquery-1.8.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/screenshot/standard_day.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/screenshot/standard_day_meridian.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/screenshot/standard_decade.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/screenshot/standard_full.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/screenshot/standard_hour.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/screenshot/standard_hour_meridian.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/screenshot/standard_month.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/screenshot/standard_year.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/tests/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/tests/_coverage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/tests/assets/coverage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/tests/assets/jquery-1.7.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/tests/assets/mock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/tests/assets/qunit-logging.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/tests/assets/qunit.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/tests/assets/qunit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/tests/assets/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/tests/run-qunit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/tests/suites/component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/tests/suites/events.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/tests/suites/formats.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/tests/suites/inline.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/tests/suites/keyboard_navigation/2011.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/tests/suites/keyboard_navigation/2012.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/tests/suites/keyboard_navigation/all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/tests/suites/mouse_navigation/2011.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/tests/suites/mouse_navigation/2012.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/tests/suites/mouse_navigation/all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/tests/suites/options.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/tests/tests.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/bootstrap-datetimepicker/tests/tests.min.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/font-awesome-4.7.0/HELP-US-OUT.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/font-awesome-4.7.0/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/font-awesome-4.7.0/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/font-awesome-4.7.0/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/font-awesome-4.7.0/less/animated.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/font-awesome-4.7.0/less/bordered-pulled.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/font-awesome-4.7.0/less/core.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/font-awesome-4.7.0/less/fixed-width.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/font-awesome-4.7.0/less/font-awesome.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/font-awesome-4.7.0/less/icons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/font-awesome-4.7.0/less/larger.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/font-awesome-4.7.0/less/list.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/font-awesome-4.7.0/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/font-awesome-4.7.0/less/path.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/font-awesome-4.7.0/less/rotated-flipped.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/font-awesome-4.7.0/less/screen-reader.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/font-awesome-4.7.0/less/stacked.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/font-awesome-4.7.0/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/font-awesome-4.7.0/scss/_animated.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/font-awesome-4.7.0/scss/_bordered-pulled.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/font-awesome-4.7.0/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/font-awesome-4.7.0/scss/_fixed-width.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/font-awesome-4.7.0/scss/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/font-awesome-4.7.0/scss/_larger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/font-awesome-4.7.0/scss/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/font-awesome-4.7.0/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/font-awesome-4.7.0/scss/_path.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/font-awesome-4.7.0/scss/_rotated-flipped.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/font-awesome-4.7.0/scss/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/font-awesome-4.7.0/scss/_stacked.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/font-awesome-4.7.0/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/static/plugins/font-awesome-4.7.0/scss/font-awesome.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day01_demo/案例：添加页面.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14/.idea/gx_day14.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14/创建mysql.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/.idea/gx_day14_web.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/my.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/js/jquery-3.6.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-3.4.1/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-3.4.1/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-3.4.1/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-3.4.1/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-3.4.1/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-3.4.1/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-3.4.1/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-3.4.1/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-3.4.1/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-3.4.1/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-3.4.1/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-3.4.1/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-3.4.1/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-3.4.1/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-3.4.1/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-3.4.1/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/.jshintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/Gruntfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/build/build.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/build/build_standalone.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/css/bootstrap-datetimepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/js/bootstrap-datetimepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.ar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.az.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.bg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.bn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.cs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.da.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.ee.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.el.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.fi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.he.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.hr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.hu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.hy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.id.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.is.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.ja.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.ka.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.ko.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.lt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.lv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.ms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.nb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.no.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.pt-BR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.pt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.ro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.rs-latin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.rs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.sk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.sl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.sv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.sw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.th.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.tr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.ua.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.uk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.zh-CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.zh-TW.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/less/datetimepicker.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/minify.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/sample in bootstrap v2/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/sample in bootstrap v2/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/sample in bootstrap v2/bootstrap/img/glyphicons-halflings-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/sample in bootstrap v2/bootstrap/img/glyphicons-halflings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/sample in bootstrap v2/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/sample in bootstrap v2/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/sample in bootstrap v2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/sample in bootstrap v2/jquery/jquery-1.8.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/sample in bootstrap v3/bootstrap/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/sample in bootstrap v3/bootstrap/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/sample in bootstrap v3/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/sample in bootstrap v3/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/sample in bootstrap v3/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/sample in bootstrap v3/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/sample in bootstrap v3/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/sample in bootstrap v3/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/sample in bootstrap v3/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/sample in bootstrap v3/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/sample in bootstrap v3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/sample in bootstrap v3/jquery/jquery-1.8.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/screenshot/standard_day.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/screenshot/standard_day_meridian.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/screenshot/standard_decade.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/screenshot/standard_full.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/screenshot/standard_hour.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/screenshot/standard_hour_meridian.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/screenshot/standard_month.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/screenshot/standard_year.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/tests/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/tests/_coverage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/tests/assets/coverage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/tests/assets/jquery-1.7.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/tests/assets/mock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/tests/assets/qunit-logging.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/tests/assets/qunit.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/tests/assets/qunit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/tests/assets/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/tests/run-qunit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/tests/suites/component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/tests/suites/events.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/tests/suites/formats.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/tests/suites/inline.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/tests/suites/keyboard_navigation/2011.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/tests/suites/keyboard_navigation/2012.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/tests/suites/keyboard_navigation/all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/tests/suites/mouse_navigation/2011.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/tests/suites/mouse_navigation/2012.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/tests/suites/mouse_navigation/all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/tests/suites/options.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/tests/tests.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/bootstrap-datetimepicker/tests/tests.min.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/font-awesome-4.7.0/HELP-US-OUT.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/font-awesome-4.7.0/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/font-awesome-4.7.0/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/font-awesome-4.7.0/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/font-awesome-4.7.0/less/animated.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/font-awesome-4.7.0/less/bordered-pulled.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/font-awesome-4.7.0/less/core.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/font-awesome-4.7.0/less/fixed-width.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/font-awesome-4.7.0/less/font-awesome.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/font-awesome-4.7.0/less/icons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/font-awesome-4.7.0/less/larger.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/font-awesome-4.7.0/less/list.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/font-awesome-4.7.0/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/font-awesome-4.7.0/less/path.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/font-awesome-4.7.0/less/rotated-flipped.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/font-awesome-4.7.0/less/screen-reader.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/font-awesome-4.7.0/less/stacked.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/font-awesome-4.7.0/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/font-awesome-4.7.0/scss/_animated.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/font-awesome-4.7.0/scss/_bordered-pulled.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/font-awesome-4.7.0/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/font-awesome-4.7.0/scss/_fixed-width.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/font-awesome-4.7.0/scss/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/font-awesome-4.7.0/scss/_larger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/font-awesome-4.7.0/scss/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/font-awesome-4.7.0/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/font-awesome-4.7.0/scss/_path.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/font-awesome-4.7.0/scss/_rotated-flipped.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/font-awesome-4.7.0/scss/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/font-awesome-4.7.0/scss/_stacked.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/font-awesome-4.7.0/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/static/plugins/font-awesome-4.7.0/scss/font-awesome.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_day14_web/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/.idea/gx_demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/js/jquery-3.6.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-3.4.1/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-3.4.1/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-3.4.1/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-3.4.1/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-3.4.1/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-3.4.1/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-3.4.1/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-3.4.1/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-3.4.1/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-3.4.1/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-3.4.1/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-3.4.1/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-3.4.1/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-3.4.1/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-3.4.1/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-3.4.1/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.standalone.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.standalone.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.standalone.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.standalone.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.standalone.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.standalone.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker-en-CA.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.ar-tn.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.ar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.az.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.bg.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.bm.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.bn.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.br.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.bs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.ca.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.cs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.cy.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.da.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.de.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.el.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.en-AU.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.en-CA.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.en-GB.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.en-IE.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.en-NZ.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.en-ZA.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.eo.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.es.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.et.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.eu.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.fa.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.fi.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.fo.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.fr-CH.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.fr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.gl.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.he.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.hi.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.hr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.hu.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.hy.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.id.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.is.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.it-CH.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.it.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.ja.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.ka.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.kh.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.kk.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.km.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.ko.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.kr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.lt.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.lv.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.me.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.mk.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.mn.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.ms.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.nl-BE.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.nl.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.no.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.oc.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.pl.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.pt-BR.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.pt.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.ro.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.rs-latin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.rs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.ru.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.si.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.sk.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.sl.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.sq.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.sr-latin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.sr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.sv.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.sw.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.ta.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.tg.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.th.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.tk.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.tr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.uk.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.uz-cyrl.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.uz-latn.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.vi.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-TW.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/font-awesome-4.7.0/HELP-US-OUT.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/font-awesome-4.7.0/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/font-awesome-4.7.0/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/font-awesome-4.7.0/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/font-awesome-4.7.0/less/animated.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/font-awesome-4.7.0/less/bordered-pulled.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/font-awesome-4.7.0/less/core.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/font-awesome-4.7.0/less/fixed-width.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/font-awesome-4.7.0/less/font-awesome.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/font-awesome-4.7.0/less/icons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/font-awesome-4.7.0/less/larger.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/font-awesome-4.7.0/less/list.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/font-awesome-4.7.0/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/font-awesome-4.7.0/less/path.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/font-awesome-4.7.0/less/rotated-flipped.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/font-awesome-4.7.0/less/screen-reader.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/font-awesome-4.7.0/less/stacked.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/font-awesome-4.7.0/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/font-awesome-4.7.0/scss/_animated.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/font-awesome-4.7.0/scss/_bordered-pulled.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/font-awesome-4.7.0/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/font-awesome-4.7.0/scss/_fixed-width.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/font-awesome-4.7.0/scss/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/font-awesome-4.7.0/scss/_larger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/font-awesome-4.7.0/scss/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/font-awesome-4.7.0/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/font-awesome-4.7.0/scss/_path.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/font-awesome-4.7.0/scss/_rotated-flipped.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/font-awesome-4.7.0/scss/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/font-awesome-4.7.0/scss/_stacked.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/font-awesome-4.7.0/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/static/plugins/font-awesome-4.7.0/scss/font-awesome.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/templates/add_user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_demo/templates/show_user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_js/.idea/gx_js.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_js/12.案例：绑定事件.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_js/13表格案例.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_js/2.javascript位置.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_js/3.javascript变量.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_js/4.案例跑马灯.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_js/5.案例动态数组.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_js/6.事件.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_js/7.菜单.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_js/8.案例：输入内容.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_js/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_js/static/jquery-3.6.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_js/初始JQuery.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gx_js/初始js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../project/.idea/project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/pyUnittest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/apiRe.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/dataAssert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/dataClear.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/dataCreate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client_stub.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/checkOutput.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/dataGenerator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/logsMethod.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/yamlRead.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/data/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/data/config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/env/Offline/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/env/Online/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/env/Online/config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/env/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/httpStubFramework/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/httpStubFramework/httpCommon.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/httpStubFramework/httpServerOperate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/httpStubFramework/httpServerStub.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/httpStubFramework/threadCount.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/20240726_info.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCase/Note/CreateNote/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCase/Note/CreateNote/test_handle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCase/Note/CreateNote/test_input.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCase/Note/CreateNote/test_major.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCase/Note/DeleteNote/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCase/Note/DeleteNote/test_handle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCase/Note/DeleteNote/test_input.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCase/Note/DeleteNote/test_major.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCase/Note/GetNoteForCalendar/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCase/Note/GetNoteForCalendar/test_handle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCase/Note/GetNoteForCalendar/test_input.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCase/Note/GetNoteForCalendar/test_major.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCase/Note/GetNotePage/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCase/Note/GetNotePage/test_handle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCase/Note/GetNotePage/test_input.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCase/Note/GetNotePage/test_major.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCase/Note/UploadNoteInfo/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCase/Note/UploadNoteInfo/test_handle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCase/Note/UploadNoteInfo/test_input.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCase/Note/UploadNoteInfo/test_major.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCase/Note/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCase/NoteGroup/CreateGroup/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCase/NoteGroup/CreateGroup/test_handle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCase/NoteGroup/CreateGroup/test_input.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCase/NoteGroup/CreateGroup/test_major.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCase/NoteGroup/DeleteGroup/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCase/NoteGroup/DeleteGroup/test_handle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCase/NoteGroup/DeleteGroup/test_input.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCase/NoteGroup/DeleteGroup/test_major.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCase/NoteGroup/GetGroups/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCase/NoteGroup/GetGroups/test_handle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCase/NoteGroup/GetGroups/test_input.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCase/NoteGroup/GetGroups/test_major.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCase/NoteGroup/GetNotesForGroup/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCase/NoteGroup/GetNotesForGroup/test_handle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCase/NoteGroup/GetNotesForGroup/test_input.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCase/NoteGroup/GetNotesForGroup/test_major.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCase/NoteGroup/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCase/RecycleBin/DeleteRecycleBinNote/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCase/RecycleBin/DeleteRecycleBinNote/test_handle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCase/RecycleBin/DeleteRecycleBinNote/test_input.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCase/RecycleBin/DeleteRecycleBinNote/test_major.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCase/RecycleBin/GetRecycleBinNote/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCase/RecycleBin/GetRecycleBinNote/test_handle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCase/RecycleBin/GetRecycleBinNote/test_input.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCase/RecycleBin/GetRecycleBinNote/test_major.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCase/RecycleBin/RestoreRecycleBinNote/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCase/RecycleBin/RestoreRecycleBinNote/test_handle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCase/RecycleBin/RestoreRecycleBinNote/test_input.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCase/RecycleBin/RestoreRecycleBinNote/test_major.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCase/RecycleBin/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCase/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../pytest_0/.idea/pytest_0.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../pythonProject10/.idea/pythonProject10.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../pythonProject11/.idea/pythonProject11.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../pythonProject11/YAML测试用例规范.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../pythonProject11/common/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../pythonProject11/common/assert_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../pythonProject11/common/database_util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../pythonProject11/common/ddt_util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../pythonProject11/common/logger_util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../pythonProject11/common/request_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../pythonProject11/common/yaml_util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../pythonProject11/config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../pythonProject11/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../pythonProject11/extract.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../pythonProject11/hotload/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../pythonProject11/hotload/debug_talk.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../pythonProject11/hotload/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../pythonProject11/logs/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../pythonProject11/logs/logs_1677683712.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../pythonProject11/logs/logs_1677856066.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../pythonProject11/logs/logs_1677856164.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../pythonProject11/logs/logs_1677856198.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../pythonProject11/logs/logs_1677856220.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../pythonProject11/pytest.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../pythonProject11/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../pythonProject11/reports/data/behaviors.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../pythonProject11/reports/data/behaviors.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../pythonProject11/reports/data/packages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../pythonProject11/reports/widgets/behaviors.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../pythonProject11/run.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../pythonProject11/testcases/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../pythonProject11/testcases/user_manager/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../pythonProject11/testcases/user_manager/add_flag.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../pythonProject11/testcases/user_manager/delete_flag.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../pythonProject11/testcases/user_manager/edit_flag.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../pythonProject11/testcases/user_manager/file_load.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../pythonProject11/testcases/user_manager/get_token.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../pythonProject11/testcases/user_manager/select_flags.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../pythonProject11/testcases/user_manager/test_weixin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../pythonProject13/99.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../pythonProject13/ApiTestEngine/caseDesgin/case.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../pythonProject13/ApiTestEngine/core/caselog.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../pythonProject13/dic/test01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../pythonProject13/excel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../pythonProject13/pymysql和xlrd/connectMysql.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../pythonProject13/pymysql和xlrd/excelproject.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zhaoy_project01/.idea/zhaoy_project01.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_10" beforeDir="false" afterPath="$PROJECT_DIR$/../../Chapter_10" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_10/Love/Chapter_14/Base/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Chapter_10/Love/Chapter_14/Base/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_10/Love/Chapter_14/Test/PageObject/bug_detailes_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Chapter_10/Love/Chapter_14/Test/PageObject/bug_detailes_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_10/Love/Chapter_14/Test/PageObject/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Chapter_10/Love/Chapter_14/Test/PageObject/login_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_10/Love/Chapter_14/Test/TestCase/test_001_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Chapter_10/Love/Chapter_14/Test/TestCase/test_001_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_10/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apiTest" beforeDir="false" afterPath="$PROJECT_DIR$/../../apiTest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apiTest/api/user_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../apiTest/api/user_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apiTest/config/settings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../../apiTest/config/settings.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apiTest/log/$Y1113.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apiTest/log/$Y1114.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apiTest/utils/log_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../apiTest/utils/log_util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../selenium/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../数据/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../数据/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../数据/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../数据/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../数据/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../数据/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../数据/.idea/数据.iml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2jljPEEMjFiYkX9rUdQomplVGO2" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests for test_create_note.CreatePro.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_create_note.CreatePro.testCase01.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_get_note_page.GetNoteTest.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_get_note_page.GetNoteTest.testCase01_major.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_get_note_page.GetNoteTest.testCase02_handle.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_handle.CreateGroupHandle.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_handle.CreateGroupHandle.testCase01_CreateGroupFailed.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_handle.CreateNoteHandle.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_handle.CreateNoteHandle.testCase01_updateNoteFailed.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_handle.CreateNoteHandle.testCase02_createNoteFailed.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_handle.DeleteGroupHandle.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_handle.DeleteRecycleBinNoteHandle.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_handle.DeleteRecycleBinNoteHandle.testCase01_DeleteRecycleBinNoteFailed.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_handle.DeleteRecycleBinNoteHandle.testCase01_noteIds_notExist.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_handle.GetGroupsGroupHandle.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_handle.GetGroupsGroupHandle.testCase01_GetGroupsSuccess.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_handle.GetNoteForCalendarInput.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_handle.GetNoteForCalendarInput.testCase02_rows_crossBoundary.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_handle.GetNoteForRecycleBinHandle.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_handle.GetNoteForRecycleBinHandle.testCase01_startindex.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_handle.GetNoteForRecycleBinHandle.testCase02_startindex.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_handle.GetNoteForRecycleBinMajor.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_handle.GetNoteForRecycleBinMajor.testCase01_startindex.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_handle.GetNoteForRecycleBinMajor.testCase02_startindex.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_handle.GetNotePageHandle.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_handle.GetNotePageHandle.testCase01_startindex.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_handle.GetNotePageHandle.testCase02_startindex.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_handle.GetNotesForGroupHandle.testCase01_GetNotesForGroupFailed.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_handle.RestoreNoteFromRecycleBinHandle.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_handle.RestoreNoteFromRecycleBinHandle.testCase01_notExistInRecycleBin_note.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_input.CreateGroupInput.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_input.CreateGroupInput.testCase01_CreateGroupFailed.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_input.CreateGroupInput.testCase06_CreateGroupSuccess.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_input.CreateGroupInput.testCase10_CreateGroupFailed.executor&quot;: &quot;Debug&quot;,
+    &quot;Python tests.Python tests for test_input.CreateNoteInput.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_input.CreateNoteInput.testCase01_createNoteFailed.executor&quot;: &quot;Debug&quot;,
+    &quot;Python tests.Python tests for test_input.CreateNoteInput.testCase02_createNoteFailed.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_input.CreateNoteInput.testCase04_createNoteFailed.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_input.CreateNoteInput.testCase05_createNoteSuccess.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_input.CreateNoteInput.testCase06_createNoteFailed.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_input.CreateNoteInput.testCase09_createNoteSuccess.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_input.CreateNoteInput.testCase17_createNoteFailed.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_input.CreateNoteInput.testCase17_createNoteSuccess.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_input.DeleteGroupInput.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_input.DeleteNoteInput.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_input.DeleteNoteInput.testCase01_remove_key.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_input.DeleteNoteInput.testCase03_must_key_notExist.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_input.DeleteNoteInput.testCase04_noteId_notExist.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_input.DeleteRecycleBinNoteInput.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_input.DeleteRecycleBinNoteInput.testCase01_noteIds_none.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_input.DeleteRecycleBinNoteInput.testCase02_noteIds_notExist.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_input.DeleteRecycleBinNoteInput.testCase03_noteIds_str.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_input.DeleteRecycleBinNoteInput.testCase04_noteIds_type_int.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_input.DeleteRecycleBinNoteInput.testCase05_noteIds_type_str.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_input.GetGroupsGroupInput.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_input.GetGroupsGroupInput.testCase01_GetGroupsFailed.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_input.GetGroupsGroupInput.testCase01_GetGroupsSuccess.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_input.GetNoteForCalendarInput.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_input.GetNoteForCalendarInput.testCase02_key_str.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_input.GetNoteForRecycleBinInput.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_input.GetNoteForRecycleBinInput.testCase01_startindex_str.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_input.GetNoteForRecycleBinMajor.testCase01_startindex_str.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_input.GetNoteForRecycleBinMajor.testCase02_rows_str.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_input.GetNoteForRecycleBinMajor.testCase02_startindex_notexist.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_input.GetNoteForRecycleBinMajor.testCase04_rows_notexist.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_input.GetNotesForGroupInput.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_input.GetNotesForGroupInput.testCase01_GetNotesForGroupFailed.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_input.GetNotesForGroupInput.testCase02_GetNotesForGroupFailed.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_input.GetNotesForGroupInput.testCase03_GetNotesForGroupFailed.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_input.GetNotesForGroupInput.testCase04_GetNotesForGroupFailed.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_input.GetNotesForGroupInput.testCase05_GetNotesForGroupFailed.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_input.GetNotesForGroupInput.testCase06_GetNotesForGroupFailed.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_input.GetNotesForGroupInput.testCase07_GetNotesForGroupFailed.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_input.RestoreNoteFromRecycleBinInput.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_input.RestoreNoteFromRecycleBinInput.testCase01_noteIds_none.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_input.RestoreNoteFromRecycleBinInput.testCase01_noteIds_notExist.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_input.RestoreNoteFromRecycleBinInput.testCase02_noteIds_empty_list.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_input.RestoreNoteFromRecycleBinInput.testCase03_noteIds_notExist.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_input.UploadNoteInfoInput.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_input.UploadNoteInfoInput.testCase01_empty_noteID.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_input.UploadNoteInfoInput.testCase02_noteID_none.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_input.UploadNoteInfoInput.testCase03_not_noteID.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_input.UploadNoteInfoInput.testCase12_star_typeStr.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_major.CreateGroupMajor.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_major.CreateGroupMajor.testCase01_CreateGroupSuccessMajor.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_major.CreateGroupTest.testCase01_CreateGroupSuccessMajor.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_major.CreateNoteMajor.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_major.CreateNoteMajor.testCase01_createNoteSuccess.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_major.CreateNoteMajor.testCase01_createNoteSuccessMajor.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_major.CreateNoteMajor.testCase02_updateNoteSuccess.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_major.CreateNoteMajor.testCase02_updateNoteSuccessMajor.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_major.CreatePro.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_major.DeleteGroupMajor.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_major.DeleteGroupMajor.testCase01_DeleteGroupSuccessMajor.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_major.DeleteNoteMajor.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_major.DeleteNoteMajor.testCase01_DeleteNoteSuccessMajor.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_major.DeleteNoteMajor.testCase01_DeleteNoteSuccess_Major.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_major.DeleteNoteMajor.testCase01_major.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_major.DeleteRecycleBinNoteMajor.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_major.DeleteRecycleBinNoteMajor.testCase01_major.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_major.DeleteRecycleBinNoteMajor.testCase02_major.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_major.GetGroupsGroupMajor.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_major.GetGroupsGroupMajor.testCase01_GetGroupsSuccessMajor.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_major.GetNoteForCalendarMajor.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_major.GetNoteForCalendarMajor.testCase01_GetNoteForCalendarSuccessMajor.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_major.GetNoteForCalendarMajor.testCase01_major.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_major.GetNoteForRecycleBinMajor.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_major.GetNoteForRecycleBinMajor.testCase01_major.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_major.GetNoteForRecycleBinMajor.testCase02_major.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_major.GetNotePageMajor.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_major.GetNotePageMajor.testCase01_major.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_major.GetNotesForGroupMajor.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_major.GetNotesForGroupMajor.testCase01_GetNotesForGroupSuccessMajor.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_major.RestoreNoteFromRecycleBinMajor.executor&quot;: &quot;Debug&quot;,
+    &quot;Python tests.Python tests for test_major.RestoreNoteFromRecycleBinMajor.testCase01_major.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_major.UploadNoteInfoMajor.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_major.UploadNoteInfoMajor.testCase01_major.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_major.UploadNoteInfoMajor.testCase02_major.executor&quot;: &quot;Run&quot;,
+    &quot;Python.apiRe.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dataAssert.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dataClear.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dataGenerator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.data_generate (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.data_generate.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;html+css&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/aiCekai/242unittest&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\11584\PycharmProjects\pyUnittest\pyUnittest\testCase\NoteGroup\GetNotesForGroup" />
+      <recent name="C:\Users\11584\PycharmProjects\pyUnittest\pyUnittest\testCase\NoteGroup\DeleteGroup" />
+      <recent name="C:\Users\11584\PycharmProjects\pyUnittest\pyUnittest\common" />
+      <recent name="C:\Users\11584\PycharmProjects\pyUnittest\pyUnittest\testCase\NoteGroup\CreateGroup" />
+      <recent name="C:\Users\11584\PycharmProjects\pyUnittest\pyUnittest\testCase\note\DeleteNote" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\11584\PycharmProjects\pyUnittest\pyUnittest\other" />
+      <recent name="C:\Users\11584\PycharmProjects\pyUnittest\pyUnittest\testCase\RecycleBin" />
+      <recent name="C:\Users\11584\PycharmProjects\pyUnittest\pyUnittest\testCase" />
+      <recent name="C:\Users\11584\PycharmProjects\pyUnittest\pyUnittest\config\env\Online" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pyUnittest" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_handle.DeleteRecycleBinNoteHandle" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="pyUnittest" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testCase/RecycleBin/DeleteRecycleBinNote" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_handle.DeleteRecycleBinNoteHandle&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_handle.RestoreNoteFromRecycleBinHandle" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="pyUnittest" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testCase/RecycleBin/RestoreRecycleBinNote" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_handle.RestoreNoteFromRecycleBinHandle&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_input.DeleteRecycleBinNoteInput" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="pyUnittest" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testCase/RecycleBin/DeleteRecycleBinNote" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_input.DeleteRecycleBinNoteInput&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_major.RestoreNoteFromRecycleBinMajor" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="pyUnittest" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testCase/RecycleBin/RestoreRecycleBinNote" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_major.RestoreNoteFromRecycleBinMajor&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python tests.Python tests for test_handle.RestoreNoteFromRecycleBinHandle" />
+        <item itemvalue="Python tests.Python tests for test_major.RestoreNoteFromRecycleBinMajor" />
+        <item itemvalue="Python tests.Python tests for test_handle.DeleteRecycleBinNoteHandle" />
+        <item itemvalue="Python tests.Python tests for test_input.DeleteRecycleBinNoteInput" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-09665e90c3a7-b11f5e8da5ad-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.15026.15" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5adac0b9-e8d5-4b3d-b04c-87d12eb5e78f" name="Changes" comment="" />
+      <created>1721968531891</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1721968531891</updated>
+      <workItem from="1721968533173" duration="507000" />
+      <workItem from="1722003425317" duration="2326000" />
+      <workItem from="1722008721311" duration="3637000" />
+      <workItem from="1722012401957" duration="383000" />
+      <workItem from="1722012822574" duration="4489000" />
+      <workItem from="1722494466224" duration="3652000" />
+      <workItem from="1722510937190" duration="73468000" />
+      <workItem from="1722835317134" duration="6000" />
+      <workItem from="1722842341567" duration="538000" />
+      <workItem from="1722842897589" duration="923000" />
+      <workItem from="1722913274342" duration="47473000" />
+      <workItem from="1723009840317" duration="3278000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/business/dataClear.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/pyUnittest$dataGenerator.coverage" NAME="dataGenerator Coverage Results" MODIFIED="1722937336645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
+    <SUITE FILE_PATH="coverage/pyUnittest$apiRe.coverage" NAME="apiRe Coverage Results" MODIFIED="1722933714576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/business" />
+    <SUITE FILE_PATH="coverage/pyUnittest$main.coverage" NAME="main Coverage Results" MODIFIED="1723022924938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pyUnittest$dataClear.coverage" NAME="dataClear Coverage Results" MODIFIED="1723005267107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/business" />
+    <SUITE FILE_PATH="coverage/pyUnittest$.coverage" NAME=" Coverage Results" MODIFIED="1723008098388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/RecycleBin/RestoreRecycleBinNote" />
+    <SUITE FILE_PATH="coverage/pyUnittest$dataAssert.coverage" NAME="dataAssert Coverage Results" MODIFIED="1722573131807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/business" />
+    <SUITE FILE_PATH="coverage/pyUnittest$data_generate.coverage" NAME="data_generate Coverage Results" MODIFIED="1722928604813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/pyUnittest$data_generate__1_.coverage" NAME="data_generate (1) Coverage Results" MODIFIED="1722928904682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
+  </component>
+</project>
