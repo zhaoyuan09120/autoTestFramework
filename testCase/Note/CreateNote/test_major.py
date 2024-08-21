@@ -4,7 +4,7 @@ import unittest
 from business.dataClear import DataClear
 from common.checkOutput import CheckOutput
 from common.logsMethod import class_case_log, step
-from business.apiRe import post
+from business.apiRe import post, get
 from common.yamlRead import YamlRead
 from common.dataGenerator import DataGenerator
 
@@ -42,6 +42,17 @@ class CreateNoteMajor(unittest.TestCase):
         self.assertEqual(200, res.status_code)
         expect = {"responseTime": int, "contentVersion": 1, "contentUpdateTime": int}
         CheckOutput().output_check(expect=expect, actual=res.json())
+        # 数据源校验
+        step("数据源校验")
+        res = get(url=self.host + f'/v3/notesvr/user/{self.userid1}/home/startindex/0/rows/10/notes', sid=self.sid1)
+        self.assertEqual(200, res.status_code)
+        expect = {
+            "responseTime": int, "webNotes": [
+                {"noteId": body_content['noteId'], "createTime": int, "star": int, "remindTime": int, "remindType": int,
+                 "infoVersion": int, "infoUpdateTime": int, "groupId": None, "title": body_content['title'],
+                 "summary": body_content['summary'], "thumbnail": None, "contentUpdateTime": int,
+                 "contentVersion": body_content['localContentVersion']}]}
+        CheckOutput().output_check(expect=expect, actual=res.json())
 
     def testCase02_updateNoteSuccessMajor(self):
         """更新便签内容的主流程"""
@@ -68,4 +79,14 @@ class CreateNoteMajor(unittest.TestCase):
         expect = {"responseTime": int, "contentVersion": res_content.json()["contentVersion"] + 1,
                   "contentUpdateTime": int}
         CheckOutput().output_check(expect=expect, actual=res.json())
-        # 获取首页便签，断言是否存在新增的便签数据
+        # 数据源校验
+        step("数据源校验")
+        res = get(url=self.host + f'/v3/notesvr/user/{self.userid1}/home/startindex/0/rows/10/notes', sid=self.sid1)
+        self.assertEqual(200, res.status_code)
+        expect = {
+            "responseTime": int, "webNotes": [
+                {"noteId": body_update['noteId'], "createTime": int, "star": int, "remindTime": int, "remindType": int,
+                 "infoVersion": int, "infoUpdateTime": int, "groupId": None, "title": body_update['title'],
+                 "summary": body_update['summary'], "thumbnail": None, "contentUpdateTime": int,
+                 "contentVersion": body_update['localContentVersion'] + 1}]}
+        CheckOutput().output_check(expect=expect, actual=res.json())

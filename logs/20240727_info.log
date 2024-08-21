@@ -1,0 +1,236 @@
+[STEP]00:16:38:489-test_get_note_page.py:19 >> 前置构建1条便签数据
+[STEP]00:17:09:443-test_get_note_page.py:19 >> 前置构建1条便签数据
+[STEP]00:17:09:581-test_get_note_page.py:21 >> 获取首页便签
+[STEP]00:26:01:073-test_get_note_page.py:19 >> 前置构建1条便签数据
+[STEP]00:26:01:232-test_get_note_page.py:21 >> 获取首页便签
+[STEP]00:26:30:249-test_get_note_page.py:19 >> 前置构建1条便签数据
+[STEP]00:26:30:402-test_get_note_page.py:21 >> 获取首页便签
+[INFO]00:27:31:402-logsMethod.py:51 >> Class Name: GetNoteTest 
+[INFO]00:27:31:411-logsMethod.py:52 >> Method Name: testCase01_major
+[INFO]00:27:31:420-logsMethod.py:53 >> Test Description: 获取首页便签，主流程
+[STEP]00:27:31:431-test_get_note_page.py:20 >> 前置构建1条便签数据
+[STEP]00:27:31:574-test_get_note_page.py:22 >> 获取首页便签
+[INFO]00:30:55:504-logsMethod.py:51 >> Class Name: GetNoteTest 
+[INFO]00:30:55:514-logsMethod.py:52 >> Method Name: testCase01_major
+[INFO]00:30:55:523-logsMethod.py:53 >> Test Description: 获取首页便签，主流程
+[STEP]00:30:55:553-test_get_note_page.py:20 >> 前置构建1条便签数据
+[STEP]00:30:55:710-test_get_note_page.py:22 >> 获取首页便签
+[INFO]00:30:55:719-test_get_note_page.py:29 >> 【requests】url：http://note-api.wps.cn
+[INFO]00:30:55:729-test_get_note_page.py:30 >> 【requests】headers：{'Cookie': 'wps_sid=V02Sw-JSqZJ06TWVRk0KaVv-ryEtLj800a4d0a690014151d2c'}
+[INFO]00:31:16:379-logsMethod.py:51 >> Class Name: GetNoteTest 
+[INFO]00:31:16:423-logsMethod.py:52 >> Method Name: testCase01_major
+[INFO]00:31:16:450-logsMethod.py:53 >> Test Description: 获取首页便签，主流程
+[STEP]00:31:16:468-test_get_note_page.py:20 >> 前置构建1条便签数据
+[STEP]00:31:16:604-test_get_note_page.py:22 >> 获取首页便签
+[INFO]00:31:16:616-test_get_note_page.py:29 >> 【requests】url：http://note-api.wps.cn
+[INFO]00:31:16:627-test_get_note_page.py:30 >> 【requests】headers：{'Cookie': 'wps_sid=V02Sw-JSqZJ06TWVRk0KaVv-ryEtLj800a4d0a690014151d2c'}
+[INFO]00:31:16:688-test_get_note_page.py:32 >> 【response】code：200
+[INFO]00:31:16:694-test_get_note_page.py:33 >> 【response】body：{"responseTime":0,"webNotes":[{"noteId":"1722011476470_noteId","createTime":1722011478008,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1722011478008,"groupId":null,"title":"test","summary":"test","thumbnail":null,"contentVersion":1,"contentUpdateTime":1722011478096}]}
+[INFO]00:47:55:156-logsMethod.py:51 >> Class Name: GetNoteTest 
+[INFO]00:47:55:169-logsMethod.py:52 >> Method Name: testCase02_handle
+[INFO]00:47:55:195-logsMethod.py:53 >> Test Description: 获取首页便签，startindex约束场景校验，存在聊条便签数据，startindex的值为1
+[STEP]00:47:55:208-test_get_note_page.py:39 >> 前置构建2条便签数据
+[STEP]00:47:55:501-test_get_note_page.py:41 >> 获取首页便签
+[INFO]00:47:55:514-apiRe.py:8 >> 【requests】url：http://note-api.wps.cn/v3/notesvr/user/336928044/home/startindex/1/rows/10/notes
+[INFO]00:47:55:525-apiRe.py:9 >> 【requests】headers：{'Cookie': 'wps_sid=V02Sw-JSqZJ06TWVRk0KaVv-ryEtLj800a4d0a690014151d2c'}
+[INFO]00:47:55:602-apiRe.py:14 >> 【response】code：200
+[INFO]00:47:55:610-apiRe.py:15 >> 【response】body：{"responseTime":0,"webNotes":[{"noteId":"1722012475210_noteId","createTime":1722012476780,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1722012476780,"groupId":null,"title":"test","summary":"test","thumbnail":null,"contentVersion":1,"contentUpdateTime":1722012476951}]}
+[INFO]00:49:14:240-logsMethod.py:51 >> Class Name: GetNoteTest 
+[INFO]00:49:14:251-logsMethod.py:52 >> Method Name: testCase02_handle
+[INFO]00:49:14:259-logsMethod.py:53 >> Test Description: 获取首页便签，startindex约束场景校验，存在聊条便签数据，startindex的值为1
+[STEP]00:49:14:270-test_get_note_page.py:39 >> 前置构建2条便签数据
+[STEP]00:49:14:524-test_get_note_page.py:41 >> 获取首页便签
+[INFO]00:49:14:533-apiRe.py:8 >> 【requests】url：http://note-api.wps.cn/v3/notesvr/user/336928044/home/startindex/1/rows/10/notes
+[INFO]00:49:14:539-apiRe.py:9 >> 【requests】headers：{'Cookie': 'wps_sid=V02Sw-JSqZJ06TWVRk0KaVv-ryEtLj800a4d0a690014151d2c'}
+[INFO]00:49:14:595-apiRe.py:14 >> 【response】code：200
+[INFO]00:49:14:602-apiRe.py:15 >> 【response】body：{"responseTime":0,"webNotes":[{"noteId":"1722012554272_noteId","createTime":1722012555843,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1722012555843,"groupId":null,"title":"test","summary":"test","thumbnail":null,"contentVersion":1,"contentUpdateTime":1722012555904}]}
+[INFO]01:04:25:119-logsMethod.py:51 >> Class Name: CreatePro 
+[INFO]01:04:25:125-logsMethod.py:52 >> Method Name: testCase01
+[INFO]01:04:25:131-logsMethod.py:53 >> Test Description: 新建便签内容的主流程
+[STEP]01:04:25:137-test_create_note.py:21 >> 前置_构建便签主体
+[INFO]01:04:25:197-test_create_note.py:32 >> 【前置】构建便签主体，noteId:1722013465137_noteId
+[STEP]01:04:25:204-test_create_note.py:35 >> 新建便签内容
+[INFO]01:04:25:211-test_create_note.py:49 >> 【requests】url：http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]01:04:25:220-test_create_note.py:50 >> 【requests】headers：{'Cookie': 'wps_sid=V02Sw-JSqZJ06TWVRk0KaVv-ryEtLj800a4d0a690014151d2c', 'X-user-key': '336928044'}
+[INFO]01:04:25:228-test_create_note.py:51 >> 【requests】body：{'noteId': '1722013465137_noteId', 'title': 'test', 'summary': 'test', 'body': 'test', 'localContentVersion': 1, 'BodyType': 0}
+[INFO]01:04:25:308-test_create_note.py:56 >> 【response】code：200
+[INFO]01:04:25:314-test_create_note.py:57 >> 【response】body：{"responseTime":32,"contentVersion":1,"contentUpdateTime":1722013466801}
+[INFO]01:04:25:475-logsMethod.py:51 >> Class Name: CreatePro 
+[INFO]01:04:25:481-logsMethod.py:52 >> Method Name: testCase02
+[INFO]01:04:25:487-logsMethod.py:53 >> Test Description: 新建便签内容，必填项缺失
+[STEP]01:04:25:565-test_create_note.py:78 >> 构建便签主体，noteId:1722013465488_noteId
+[INFO]01:04:25:573-test_create_note.py:93 >> 【requests】url：http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]01:04:25:582-test_create_note.py:94 >> 【requests】headers：{'Cookie': 'wps_sid=V02Sw-JSqZJ06TWVRk0KaVv-ryEtLj800a4d0a690014151d2c', 'X-user-key': '336928044'}
+[INFO]01:04:25:592-test_create_note.py:95 >> 【requests】body：{'title': 'test', 'summary': 'test', 'body': 'test', 'localContentVersion': 1, 'BodyType': 0}
+[INFO]01:04:25:656-test_create_note.py:97 >> 【response】code：500
+[INFO]01:04:25:662-test_create_note.py:98 >> 【response】body：{"errorCode":-7,"errorMsg":"参数不合法！"}
+[INFO]01:04:25:734-logsMethod.py:51 >> Class Name: GetNoteTest 
+[INFO]01:04:25:745-logsMethod.py:52 >> Method Name: testCase01_major
+[INFO]01:04:25:751-logsMethod.py:53 >> Test Description: 获取首页便签，主流程
+[STEP]01:04:25:759-test_get_note_page.py:22 >> 前置构建1条便签数据
+[STEP]01:04:25:904-test_get_note_page.py:24 >> 获取首页便签
+[INFO]01:04:25:916-apiRe.py:8 >> 【requests】url：http://note-api.wps.cn/v3/notesvr/user/336928044/home/startindex/0/rows/10/notes
+[INFO]01:04:25:924-apiRe.py:9 >> 【requests】headers：{'Cookie': 'wps_sid=V02Sw-JSqZJ06TWVRk0KaVv-ryEtLj800a4d0a690014151d2c'}
+[INFO]01:04:26:001-apiRe.py:14 >> 【response】code：200
+[INFO]01:04:26:008-apiRe.py:15 >> 【response】body：{"responseTime":0,"webNotes":[{"noteId":"1722013465759_noteId","createTime":1722013467322,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1722013467322,"groupId":null,"title":"test","summary":"test","thumbnail":null,"contentVersion":1,"contentUpdateTime":1722013467510}]}
+[INFO]01:04:26:121-logsMethod.py:51 >> Class Name: GetNoteTest 
+[INFO]01:04:26:129-logsMethod.py:52 >> Method Name: testCase02_handle
+[INFO]01:04:26:136-logsMethod.py:53 >> Test Description: 获取首页便签，startindex约束场景校验，存在聊条便签数据，startindex的值为1
+[STEP]01:04:26:145-test_get_note_page.py:39 >> 前置构建2条便签数据
+[STEP]01:04:26:383-test_get_note_page.py:41 >> 获取首页便签
+[INFO]01:04:26:391-apiRe.py:8 >> 【requests】url：http://note-api.wps.cn/v3/notesvr/user/336928044/home/startindex/1/rows/10/notes
+[INFO]01:04:26:400-apiRe.py:9 >> 【requests】headers：{'Cookie': 'wps_sid=V02Sw-JSqZJ06TWVRk0KaVv-ryEtLj800a4d0a690014151d2c'}
+[INFO]01:04:26:478-apiRe.py:14 >> 【response】code：200
+[INFO]01:04:26:488-apiRe.py:15 >> 【response】body：{"responseTime":0,"webNotes":[{"noteId":"1722013466147_noteId","createTime":1722013467763,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1722013467763,"groupId":null,"title":"test","summary":"test","thumbnail":null,"contentVersion":1,"contentUpdateTime":1722013467817}]}
+[INFO]01:06:37:094-logsMethod.py:51 >> Class Name: GetNoteTest 
+[INFO]01:06:37:100-logsMethod.py:52 >> Method Name: testCase01_major
+[INFO]01:06:37:106-logsMethod.py:53 >> Test Description: 获取首页便签，主流程
+[STEP]01:06:37:112-test_get_note_page.py:22 >> 前置构建1条便签数据
+[STEP]01:06:37:247-test_get_note_page.py:24 >> 获取首页便签
+[INFO]01:06:37:255-apiRe.py:8 >> 【requests】url：http://note-api.wps.cn/v3/notesvr/user/336928044/home/startindex/0/rows/10/notes
+[INFO]01:06:37:262-apiRe.py:9 >> 【requests】headers：{'Cookie': 'wps_sid=V02Sw-JSqZJ06TWVRk0KaVv-ryEtLj800a4d0a690014151d2c'}
+[INFO]01:06:37:333-apiRe.py:14 >> 【response】code：200
+[INFO]01:06:37:341-apiRe.py:15 >> 【response】body：{"responseTime":0,"webNotes":[{"noteId":"1722013597113_noteId","createTime":1722013598670,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1722013598670,"groupId":null,"title":"test","summary":"test","thumbnail":null,"contentVersion":1,"contentUpdateTime":1722013598740}]}
+[INFO]01:06:37:471-logsMethod.py:51 >> Class Name: GetNoteTest 
+[INFO]01:06:37:478-logsMethod.py:52 >> Method Name: testCase02_handle
+[INFO]01:06:37:485-logsMethod.py:53 >> Test Description: 获取首页便签，startindex约束场景校验，存在聊条便签数据，startindex的值为1
+[STEP]01:06:37:492-test_get_note_page.py:39 >> 前置构建2条便签数据
+[STEP]01:06:37:755-test_get_note_page.py:41 >> 获取首页便签
+[INFO]01:06:37:762-apiRe.py:8 >> 【requests】url：http://note-api.wps.cn/v3/notesvr/user/336928044/home/startindex/1/rows/10/notes
+[INFO]01:06:37:768-apiRe.py:9 >> 【requests】headers：{'Cookie': 'wps_sid=V02Sw-JSqZJ06TWVRk0KaVv-ryEtLj800a4d0a690014151d2c'}
+[INFO]01:06:37:836-apiRe.py:14 >> 【response】code：200
+[INFO]01:06:37:843-apiRe.py:15 >> 【response】body：{"responseTime":0,"webNotes":[{"noteId":"1722013597493_noteId","createTime":1722013599062,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1722013599062,"groupId":null,"title":"test","summary":"test","thumbnail":null,"contentVersion":1,"contentUpdateTime":1722013599124}]}
+[INFO]01:06:44:554-logsMethod.py:51 >> Class Name: CreatePro 
+[INFO]01:06:44:559-logsMethod.py:52 >> Method Name: testCase01
+[INFO]01:06:44:564-logsMethod.py:53 >> Test Description: 新建便签内容的主流程
+[STEP]01:06:44:571-test_create_note.py:21 >> 前置_构建便签主体
+[INFO]01:06:44:632-test_create_note.py:32 >> 【前置】构建便签主体，noteId:1722013604572_noteId
+[STEP]01:06:44:638-test_create_note.py:35 >> 新建便签内容
+[INFO]01:06:44:646-test_create_note.py:49 >> 【requests】url：http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]01:06:44:652-test_create_note.py:50 >> 【requests】headers：{'Cookie': 'wps_sid=V02Sw-JSqZJ06TWVRk0KaVv-ryEtLj800a4d0a690014151d2c', 'X-user-key': '336928044'}
+[INFO]01:06:44:659-test_create_note.py:51 >> 【requests】body：{'noteId': '1722013604572_noteId', 'title': 'test', 'summary': 'test', 'body': 'test', 'localContentVersion': 1, 'BodyType': 0}
+[INFO]01:06:44:716-test_create_note.py:56 >> 【response】code：200
+[INFO]01:06:44:722-test_create_note.py:57 >> 【response】body：{"responseTime":28,"contentVersion":1,"contentUpdateTime":1722013606272}
+[INFO]01:06:44:824-logsMethod.py:51 >> Class Name: CreatePro 
+[INFO]01:06:44:829-logsMethod.py:52 >> Method Name: testCase02
+[INFO]01:06:44:834-logsMethod.py:53 >> Test Description: 新建便签内容，必填项缺失
+[STEP]01:06:44:891-test_create_note.py:78 >> 构建便签主体，noteId:1722013604835_noteId
+[INFO]01:06:44:897-test_create_note.py:93 >> 【requests】url：http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]01:06:44:903-test_create_note.py:94 >> 【requests】headers：{'Cookie': 'wps_sid=V02Sw-JSqZJ06TWVRk0KaVv-ryEtLj800a4d0a690014151d2c', 'X-user-key': '336928044'}
+[INFO]01:06:44:909-test_create_note.py:95 >> 【requests】body：{'title': 'test', 'summary': 'test', 'body': 'test', 'localContentVersion': 1, 'BodyType': 0}
+[INFO]01:06:44:937-test_create_note.py:97 >> 【response】code：500
+[INFO]01:06:44:942-test_create_note.py:98 >> 【response】body：{"errorCode":-7,"errorMsg":"参数不合法！"}
+[INFO]01:06:51:364-logsMethod.py:51 >> Class Name: CreatePro 
+[INFO]01:06:51:369-logsMethod.py:52 >> Method Name: testCase01
+[INFO]01:06:51:375-logsMethod.py:53 >> Test Description: 新建便签内容的主流程
+[STEP]01:06:51:381-test_create_note.py:21 >> 前置_构建便签主体
+[INFO]01:06:51:461-test_create_note.py:32 >> 【前置】构建便签主体，noteId:1722013611382_noteId
+[STEP]01:06:51:465-test_create_note.py:35 >> 新建便签内容
+[INFO]01:06:51:470-test_create_note.py:49 >> 【requests】url：http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]01:06:51:476-test_create_note.py:50 >> 【requests】headers：{'Cookie': 'wps_sid=V02Sw-JSqZJ06TWVRk0KaVv-ryEtLj800a4d0a690014151d2c', 'X-user-key': '336928044'}
+[INFO]01:06:51:481-test_create_note.py:51 >> 【requests】body：{'noteId': '1722013611382_noteId', 'title': 'test', 'summary': 'test', 'body': 'test', 'localContentVersion': 1, 'BodyType': 0}
+[INFO]01:06:51:550-test_create_note.py:56 >> 【response】code：200
+[INFO]01:06:51:555-test_create_note.py:57 >> 【response】body：{"responseTime":32,"contentVersion":1,"contentUpdateTime":1722013613046}
+[INFO]01:06:51:681-logsMethod.py:51 >> Class Name: CreatePro 
+[INFO]01:06:51:687-logsMethod.py:52 >> Method Name: testCase02
+[INFO]01:06:51:692-logsMethod.py:53 >> Test Description: 新建便签内容，必填项缺失
+[STEP]01:06:51:753-test_create_note.py:78 >> 构建便签主体，noteId:1722013611692_noteId
+[INFO]01:06:51:758-test_create_note.py:93 >> 【requests】url：http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]01:06:51:762-test_create_note.py:94 >> 【requests】headers：{'Cookie': 'wps_sid=V02Sw-JSqZJ06TWVRk0KaVv-ryEtLj800a4d0a690014151d2c', 'X-user-key': '336928044'}
+[INFO]01:06:51:767-test_create_note.py:95 >> 【requests】body：{'title': 'test', 'summary': 'test', 'body': 'test', 'localContentVersion': 1, 'BodyType': 0}
+[INFO]01:06:51:809-test_create_note.py:97 >> 【response】code：500
+[INFO]01:06:51:815-test_create_note.py:98 >> 【response】body：{"errorCode":-7,"errorMsg":"参数不合法！"}
+[INFO]01:06:51:878-logsMethod.py:51 >> Class Name: GetNoteTest 
+[INFO]01:06:51:883-logsMethod.py:52 >> Method Name: testCase01_major
+[INFO]01:06:51:888-logsMethod.py:53 >> Test Description: 获取首页便签，主流程
+[STEP]01:06:51:894-test_get_note_page.py:22 >> 前置构建1条便签数据
+[STEP]01:06:52:029-test_get_note_page.py:24 >> 获取首页便签
+[INFO]01:06:52:035-apiRe.py:8 >> 【requests】url：http://note-api.wps.cn/v3/notesvr/user/336928044/home/startindex/0/rows/10/notes
+[INFO]01:06:52:041-apiRe.py:9 >> 【requests】headers：{'Cookie': 'wps_sid=V02Sw-JSqZJ06TWVRk0KaVv-ryEtLj800a4d0a690014151d2c'}
+[INFO]01:06:52:103-apiRe.py:14 >> 【response】code：200
+[INFO]01:06:52:109-apiRe.py:15 >> 【response】body：{"responseTime":0,"webNotes":[{"noteId":"1722013611894_noteId","createTime":1722013613550,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1722013613550,"groupId":null,"title":"test","summary":"test","thumbnail":null,"contentVersion":1,"contentUpdateTime":1722013613619}]}
+[INFO]01:06:52:233-logsMethod.py:51 >> Class Name: GetNoteTest 
+[INFO]01:06:52:237-logsMethod.py:52 >> Method Name: testCase02_handle
+[INFO]01:06:52:243-logsMethod.py:53 >> Test Description: 获取首页便签，startindex约束场景校验，存在聊条便签数据，startindex的值为1
+[STEP]01:06:52:249-test_get_note_page.py:39 >> 前置构建2条便签数据
+[STEP]01:06:52:485-test_get_note_page.py:41 >> 获取首页便签
+[INFO]01:06:52:492-apiRe.py:8 >> 【requests】url：http://note-api.wps.cn/v3/notesvr/user/336928044/home/startindex/1/rows/10/notes
+[INFO]01:06:52:499-apiRe.py:9 >> 【requests】headers：{'Cookie': 'wps_sid=V02Sw-JSqZJ06TWVRk0KaVv-ryEtLj800a4d0a690014151d2c'}
+[INFO]01:06:52:553-apiRe.py:14 >> 【response】code：200
+[INFO]01:06:52:558-apiRe.py:15 >> 【response】body：{"responseTime":0,"webNotes":[{"noteId":"1722013612250_noteId","createTime":1722013613813,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1722013613813,"groupId":null,"title":"test","summary":"test","thumbnail":null,"contentVersion":1,"contentUpdateTime":1722013613883}]}
+[INFO]01:08:43:074-logsMethod.py:51 >> Class Name: CreatePro 
+[INFO]01:08:43:079-logsMethod.py:52 >> Method Name: testCase01
+[INFO]01:08:43:084-logsMethod.py:53 >> Test Description: 新建便签内容的主流程
+[STEP]01:08:43:089-test_create_note.py:21 >> 前置_构建便签主体
+[INFO]01:08:43:145-test_create_note.py:32 >> 【前置】构建便签主体，noteId:1722013723089_noteId
+[STEP]01:08:43:149-test_create_note.py:35 >> 新建便签内容
+[INFO]01:08:43:154-test_create_note.py:49 >> 【requests】url：http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]01:08:43:158-test_create_note.py:50 >> 【requests】headers：{'Cookie': 'wps_sid=V02Sw-JSqZJ06TWVRk0KaVv-ryEtLj800a4d0a690014151d2c', 'X-user-key': '336928044'}
+[INFO]01:08:43:163-test_create_note.py:51 >> 【requests】body：{'noteId': '1722013723089_noteId', 'title': 'test', 'summary': 'test', 'body': 'test', 'localContentVersion': 1, 'BodyType': 0}
+[INFO]01:08:43:221-test_create_note.py:56 >> 【response】code：200
+[INFO]01:08:43:226-test_create_note.py:57 >> 【response】body：{"responseTime":28,"contentVersion":1,"contentUpdateTime":1722013724778}
+[INFO]01:08:43:339-logsMethod.py:51 >> Class Name: CreatePro 
+[INFO]01:08:43:344-logsMethod.py:52 >> Method Name: testCase02
+[INFO]01:08:43:350-logsMethod.py:53 >> Test Description: 新建便签内容，必填项缺失
+[STEP]01:08:43:405-test_create_note.py:78 >> 构建便签主体，noteId:1722013723350_noteId
+[INFO]01:08:43:410-test_create_note.py:93 >> 【requests】url：http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]01:08:43:415-test_create_note.py:94 >> 【requests】headers：{'Cookie': 'wps_sid=V02Sw-JSqZJ06TWVRk0KaVv-ryEtLj800a4d0a690014151d2c', 'X-user-key': '336928044'}
+[INFO]01:08:43:419-test_create_note.py:95 >> 【requests】body：{'title': 'test', 'summary': 'test', 'body': 'test', 'localContentVersion': 1, 'BodyType': 0}
+[INFO]01:08:43:449-test_create_note.py:97 >> 【response】code：500
+[INFO]01:08:43:453-test_create_note.py:98 >> 【response】body：{"errorCode":-7,"errorMsg":"参数不合法！"}
+[INFO]01:08:43:503-logsMethod.py:51 >> Class Name: GetNoteTest 
+[INFO]01:08:43:508-logsMethod.py:52 >> Method Name: testCase01_major
+[INFO]01:08:43:513-logsMethod.py:53 >> Test Description: 获取首页便签，主流程
+[STEP]01:08:43:517-test_get_note_page.py:22 >> 前置构建1条便签数据
+[STEP]01:08:43:627-test_get_note_page.py:24 >> 获取首页便签
+[INFO]01:08:43:633-apiRe.py:8 >> 【requests】url：http://note-api.wps.cn/v3/notesvr/user/336928044/home/startindex/0/rows/10/notes
+[INFO]01:08:43:640-apiRe.py:9 >> 【requests】headers：{'Cookie': 'wps_sid=V02Sw-JSqZJ06TWVRk0KaVv-ryEtLj800a4d0a690014151d2c'}
+[INFO]01:08:43:704-apiRe.py:14 >> 【response】code：200
+[INFO]01:08:43:710-apiRe.py:15 >> 【response】body：{"responseTime":0,"webNotes":[{"noteId":"1722013723518_noteId","createTime":1722013725132,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1722013725132,"groupId":null,"title":"test","summary":"test","thumbnail":null,"contentVersion":1,"contentUpdateTime":1722013725210}]}
+[INFO]01:08:43:835-logsMethod.py:51 >> Class Name: GetNoteTest 
+[INFO]01:08:43:842-logsMethod.py:52 >> Method Name: testCase02_handle
+[INFO]01:08:43:847-logsMethod.py:53 >> Test Description: 获取首页便签，startindex约束场景校验，存在聊条便签数据，startindex的值为1
+[STEP]01:08:43:853-test_get_note_page.py:39 >> 前置构建2条便签数据
+[STEP]01:08:44:073-test_get_note_page.py:41 >> 获取首页便签
+[INFO]01:08:44:080-apiRe.py:8 >> 【requests】url：http://note-api.wps.cn/v3/notesvr/user/336928044/home/startindex/1/rows/10/notes
+[INFO]01:08:44:085-apiRe.py:9 >> 【requests】headers：{'Cookie': 'wps_sid=V02Sw-JSqZJ06TWVRk0KaVv-ryEtLj800a4d0a690014151d2c'}
+[INFO]01:08:44:138-apiRe.py:14 >> 【response】code：200
+[INFO]01:08:44:143-apiRe.py:15 >> 【response】body：{"responseTime":0,"webNotes":[{"noteId":"1722013723854_noteId","createTime":1722013725409,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1722013725409,"groupId":null,"title":"test","summary":"test","thumbnail":null,"contentVersion":1,"contentUpdateTime":1722013725462}]}
+[INFO]01:09:35:318-logsMethod.py:51 >> Class Name: CreatePro 
+[INFO]01:09:35:325-logsMethod.py:52 >> Method Name: testCase01
+[INFO]01:09:35:333-logsMethod.py:53 >> Test Description: 新建便签内容的主流程
+[STEP]01:09:35:341-test_create_note.py:21 >> 前置_构建便签主体
+[INFO]01:09:35:423-test_create_note.py:32 >> 【前置】构建便签主体，noteId:1722013775343_noteId
+[STEP]01:09:35:434-test_create_note.py:35 >> 新建便签内容
+[INFO]01:09:35:454-test_create_note.py:49 >> 【requests】url：http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]01:09:35:465-test_create_note.py:50 >> 【requests】headers：{'Cookie': 'wps_sid=V02Sw-JSqZJ06TWVRk0KaVv-ryEtLj800a4d0a690014151d2c', 'X-user-key': '336928044'}
+[INFO]01:09:35:479-test_create_note.py:51 >> 【requests】body：{'noteId': '1722013775343_noteId', 'title': 'test', 'summary': 'test', 'body': 'test', 'localContentVersion': 1, 'BodyType': 0}
+[INFO]01:09:35:555-test_create_note.py:56 >> 【response】code：200
+[INFO]01:09:35:563-test_create_note.py:57 >> 【response】body：{"responseTime":28,"contentVersion":1,"contentUpdateTime":1722013777130}
+[INFO]01:09:35:677-logsMethod.py:51 >> Class Name: CreatePro 
+[INFO]01:09:35:682-logsMethod.py:52 >> Method Name: testCase02
+[INFO]01:09:35:688-logsMethod.py:53 >> Test Description: 新建便签内容，必填项缺失
+[STEP]01:09:35:753-test_create_note.py:78 >> 构建便签主体，noteId:1722013775688_noteId
+[INFO]01:09:35:763-test_create_note.py:93 >> 【requests】url：http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]01:09:35:771-test_create_note.py:94 >> 【requests】headers：{'Cookie': 'wps_sid=V02Sw-JSqZJ06TWVRk0KaVv-ryEtLj800a4d0a690014151d2c', 'X-user-key': '336928044'}
+[INFO]01:09:35:779-test_create_note.py:95 >> 【requests】body：{'title': 'test', 'summary': 'test', 'body': 'test', 'localContentVersion': 1, 'BodyType': 0}
+[INFO]01:09:35:825-test_create_note.py:97 >> 【response】code：500
+[INFO]01:09:35:834-test_create_note.py:98 >> 【response】body：{"errorCode":-7,"errorMsg":"参数不合法！"}
+[INFO]01:09:35:891-logsMethod.py:51 >> Class Name: GetNoteTest 
+[INFO]01:09:35:900-logsMethod.py:52 >> Method Name: testCase01_major
+[INFO]01:09:35:906-logsMethod.py:53 >> Test Description: 获取首页便签，主流程
+[STEP]01:09:35:912-test_get_note_page.py:22 >> 前置构建1条便签数据
+[STEP]01:09:36:039-test_get_note_page.py:24 >> 获取首页便签
+[INFO]01:09:36:053-apiRe.py:8 >> 【requests】url：http://note-api.wps.cn/v3/notesvr/user/336928044/home/startindex/0/rows/10/notes
+[INFO]01:09:36:068-apiRe.py:9 >> 【requests】headers：{'Cookie': 'wps_sid=V02Sw-JSqZJ06TWVRk0KaVv-ryEtLj800a4d0a690014151d2c'}
+[INFO]01:09:36:127-apiRe.py:14 >> 【response】code：200
+[INFO]01:09:36:134-apiRe.py:15 >> 【response】body：{"responseTime":0,"webNotes":[{"noteId":"1722013775913_noteId","createTime":1722013777474,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1722013777474,"groupId":null,"title":"test","summary":"test","thumbnail":null,"contentVersion":1,"contentUpdateTime":1722013777614}]}
+[INFO]01:09:36:248-logsMethod.py:51 >> Class Name: GetNoteTest 
+[INFO]01:09:36:262-logsMethod.py:52 >> Method Name: testCase02_handle
+[INFO]01:09:36:273-logsMethod.py:53 >> Test Description: 获取首页便签，startindex约束场景校验，存在聊条便签数据，startindex的值为1
+[STEP]01:09:36:283-test_get_note_page.py:39 >> 前置构建2条便签数据
+[STEP]01:09:36:523-test_get_note_page.py:41 >> 获取首页便签
+[INFO]01:09:36:531-apiRe.py:8 >> 【requests】url：http://note-api.wps.cn/v3/notesvr/user/336928044/home/startindex/1/rows/10/notes
+[INFO]01:09:36:540-apiRe.py:9 >> 【requests】headers：{'Cookie': 'wps_sid=V02Sw-JSqZJ06TWVRk0KaVv-ryEtLj800a4d0a690014151d2c'}
+[INFO]01:09:36:600-apiRe.py:14 >> 【response】code：200
+[INFO]01:09:36:607-apiRe.py:15 >> 【response】body：{"responseTime":0,"webNotes":[{"noteId":"1722013776284_noteId","createTime":1722013777849,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1722013777849,"groupId":null,"title":"test","summary":"test","thumbnail":null,"contentVersion":1,"contentUpdateTime":1722013777996}]}

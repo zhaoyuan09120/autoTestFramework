@@ -41,16 +41,16 @@ class UploadNoteInfoMajor(unittest.TestCase):
         step("更新便签主体")
         body = {"noteId": DataGenerator.generate_time_str() + "_noteId"}
         res = post(url=self.host + '/v3/notesvr/set/noteinfo', headers=self.headers, data=body, sid=self.sid1)
-        infoVersion = res.json()['infoVersion']
         body = {
             "noteId": body["noteId"],
-            "title": "test",
-            "summary": "testUpdateSummary",
-            "body": "testUpdateSummary",
-            "localContentVersion": infoVersion,
+            "title": DataGenerator.generate_str_title(),
+            "summary": DataGenerator.generate_str_summary(),
+            "body": DataGenerator.generate_str_body(),
+            "localContentVersion": res.json()['infoVersion'],
             "BodyType": 0
         }
-        res = post(url=self.host + '/v3/notesvr/set/noteinfo', headers=self.headers, data=body, sid=self.sid1)
+        res_ = post(url=self.host + '/v3/notesvr/set/noteinfo', headers=self.headers, data=body, sid=self.sid1)
         self.assertEqual(200, res.status_code)
-        expect = {"responseTime": int, "infoVersion": 2, "infoUpdateTime": int}
-        CheckOutput().output_check(expect=expect, actual=res.json())
+        expect = {"responseTime": int, "infoVersion":  res.json()['infoVersion'] + 1, "infoUpdateTime": int}
+        CheckOutput().output_check(expect=expect, actual=res_.json())
+

@@ -32,6 +32,7 @@ class DeleteGroupMajor(unittest.TestCase):
         res = post(url=self.host + '/notesvr/delete/notegroup', headers=self.headers, sid=self.sid1,
                    data={"groupId": data_msg[0]['groupId']})
         expect = {"responseTime": int}
+        self.assertEqual(200, res.status_code)
         CheckOutput().output_check(expect=expect, actual=res.json())
         step("数据源校验")
         res = post(url=self.host + '/v3/notesvr/get/notegroup', headers=self.headers, data={"excludeInValid": True},

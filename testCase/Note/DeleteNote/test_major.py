@@ -5,7 +5,7 @@ from business.dataCreate import DataCreate
 from common.logsMethod import info, error, class_case_log, step
 from common.checkOutput import CheckOutput
 from common.logsMethod import class_case_log
-from business.apiRe import post
+from business.apiRe import post, get
 from common.yamlRead import YamlRead
 
 
@@ -20,6 +20,9 @@ class DeleteNoteMajor(unittest.TestCase):
     def setUp(self):
         DataClear().note_clear()
 
+    def tearDown(self):
+        DataClear().note_clear()
+
     def testCase01_DeleteNoteSuccessMajor(self):
         """删除便签，主流程"""
         step("前置构建1条便签数据")
@@ -29,4 +32,10 @@ class DeleteNoteMajor(unittest.TestCase):
         res = post(url=self.host + '/v3/notesvr/delete', sid=self.sid1, data=body, headers=self.headers)
         self.assertEqual(200, res.status_code)
         expect = {"responseTime": int}
+        CheckOutput().output_check(expect=expect, actual=res.json())
+        # 数据源校验
+        step("数据源校验")
+        res = get(url=self.host + f'/v3/notesvr/user/{self.userid1}/home/startindex/0/rows/10/notes', sid=self.sid1)
+        expect = {"responseTime": int, "webNotes": []}
+        self.assertEqual(200, res.status_code)
         CheckOutput().output_check(expect=expect, actual=res.json())

@@ -5,7 +5,7 @@ import yaml
 class YamlRead:
     @staticmethod
     def env_config():
-        with open(file=f'{DIR}/config/variable/{ENVIRON}/config.yml', mode='r', encoding='utf-8') as f:
+        with open(file=f'{DIR}/config/Variable/{ENVIRON}/config.yml', mode='r', encoding='utf-8') as f:
             return yaml.load(f, Loader=yaml.FullLoader)
 
     @staticmethod

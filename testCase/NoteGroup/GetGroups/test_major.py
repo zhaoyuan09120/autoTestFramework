@@ -31,7 +31,7 @@ class GetGroupsGroupMajor(unittest.TestCase):
     def testCase01_GetGroupsSuccessMajor(self):
         """获取分组列表主流程"""
         step("前置创建分组")
-        data_msg = DataCreate().create_group(order=0,num=1)
+        data_msg = DataCreate().create_group(order=0, num=1)
         step("获取分组列表")
         res = post(url=self.host + '/v3/notesvr/get/notegroup', headers=self.headers, data={"excludeInValid": True},
                    sid=self.sid1)

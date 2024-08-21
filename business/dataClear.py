@@ -47,7 +47,7 @@ class DataClear:
         return False
 
 
-if __name__ == '__main__':
-    sid = 'V02Sw-JSqZJ06TWVRk0KaVv-ryEtLj800a4d0a690014151d2c'
-    userid = '336928044'
-    DataClear().note_clear()
+# if __name__ == '__main__':
+#     sid = 'V02Sw-JSqZJ06TWVRk0KaVv-ryEtLj800a4d0a690014151d2c'
+#     userid = '336928044'
+#     DataClear().note_clear()

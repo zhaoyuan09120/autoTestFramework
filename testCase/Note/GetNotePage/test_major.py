@@ -18,6 +18,9 @@ class GetNotePageMajor(unittest.TestCase):
     def setUp(self):
         DataClear().note_clear()
 
+    def tearDown(self):
+        DataClear().note_clear()
+
     def testCase01_GetNotePageSuccess(self):
         """获取首页便签，主流程"""
         step("前置构建1条便签数据")
