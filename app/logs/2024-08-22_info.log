@@ -1,0 +1,23 @@
+[INFO]docteamApp.py:159-00:27:03.386-user ip:192.168.199.182, re_id:1724257623386_id
+[INFO]docteamApp.py:162-00:27:03.552-re_id: 1724257623386_id, log: {'file_id': '1111', 'status': 'edit'}
+[INFO]docteamApp.py:163-00:27:03.555-re_id: 1724257623386_id, log: ImmutableMultiDict([('user_id', 'A')])
+[INFO]docteamApp.py:175-00:27:03.558-re_id: 1724257623386_id, log: check file
+[INFO]docteamApp.py:191-00:27:03.604-re_id: 1724257623386_id, log: sql handles
+[INFO]docteamApp.py:199-00:27:03.656-re_id: 1724257623386_id, log: sql res- None
+[INFO]docteamApp.py:159-00:27:05.792-user ip:192.168.199.182, re_id:1724257625792_id
+[INFO]docteamApp.py:162-00:27:05.795-re_id: 1724257625792_id, log: {'file_id': '1111', 'status': 'edit'}
+[INFO]docteamApp.py:163-00:27:05.798-re_id: 1724257625792_id, log: ImmutableMultiDict([('user_id', 'A')])
+[INFO]docteamApp.py:175-00:27:05.801-re_id: 1724257625792_id, log: check file
+[INFO]docteamApp.py:159-00:27:08.004-user ip:192.168.199.182, re_id:1724257628004_id
+[INFO]docteamApp.py:162-00:27:08.009-re_id: 1724257628004_id, log: {'file_id': '1111', 'status': 'edit'}
+[INFO]docteamApp.py:163-00:27:08.013-re_id: 1724257628004_id, log: ImmutableMultiDict([('user_id', 'A')])
+[INFO]docteamApp.py:175-00:27:08.018-re_id: 1724257628004_id, log: check file
+[INFO]docteamApp.py:159-00:27:20.334-user ip:192.168.199.182, re_id:1724257640334_id
+[INFO]docteamApp.py:162-00:27:20.339-re_id: 1724257640334_id, log: {'file_id': '1111', 'status': 'edit'}
+[INFO]docteamApp.py:163-00:27:20.342-re_id: 1724257640334_id, log: ImmutableMultiDict([('user_id', 'B')])
+[INFO]docteamApp.py:175-00:27:20.345-re_id: 1724257640334_id, log: check file
+[INFO]docteamApp.py:159-00:27:22.520-user ip:192.168.199.182, re_id:1724257642520_id
+[INFO]docteamApp.py:162-00:27:22.523-re_id: 1724257642520_id, log: {'file_id': '1111', 'status': 'edit'}
+[INFO]docteamApp.py:163-00:27:22.526-re_id: 1724257642520_id, log: ImmutableMultiDict([('user_id', 'B')])
+[INFO]docteamApp.py:175-00:27:22.530-re_id: 1724257642520_id, log: check file
+[INFO]docteamApp.py:125-00:27:24.964-Shutting down the server...

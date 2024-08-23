@@ -1,0 +1,6 @@
+[ERROR]docteamApp.py:186-00:27:05.827-re_id: 1724257625792_id, error: file server response code - 403, response body - {"msg":"server down"}
+
+[ERROR]docteamApp.py:186-00:27:20.357-re_id: 1724257640334_id, error: file server response code - 403, response body - {"msg":"failed"}
+
+[ERROR]docteamApp.py:186-00:27:22.562-re_id: 1724257642520_id, error: file server response code - 403, response body - {"msg":"failed"}
+

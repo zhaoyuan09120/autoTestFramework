@@ -1,0 +1,6 @@
+host: 'http://note-api.wps.cn'
+docteamApp: 'http://192.168.199.182:8530'
+sid1: 'V02Sw-JSqZJ06TWVRk0KaVv-ryEtLj800a4d0a690014151d2c'
+userid1: '336928044'
+invalid_wps_id: 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'
+invalid_user_id: '123456789'

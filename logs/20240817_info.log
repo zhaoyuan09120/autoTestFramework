@@ -1,0 +1,51 @@
+[INFO]13:11:52:470-test_major.py:21 >> 【前置】清空file的文件协同用户
+[INFO]13:11:54:534-test_major.py:21 >> 【前置】清空file的文件协同用户
+[INFO]13:11:56:562-test_major.py:21 >> 【前置】清空file的文件协同用户
+[INFO]13:11:58:601-test_major.py:21 >> 【前置】清空file的文件协同用户
+[INFO]13:12:00:647-test_major.py:21 >> 【前置】清空file的文件协同用户
+[INFO]13:12:49:031-test_major.py:21 >> 【前置】清空file的文件协同用户
+[INFO]13:12:50:376-logsMethod.py:51 >> Class Name: FileAppTestCase 
+[INFO]13:12:50:379-logsMethod.py:52 >> Method Name: testCase01_fileApp_res_200
+[INFO]13:12:50:381-logsMethod.py:53 >> Test Description: 请求文档编辑接口，fileApp返回200，expect:文档编辑返回200  body为edit success
+[INFO]13:12:50:384-test_major.py:32 >> 请求地址url:http://192.168.199.182:8530/edit
+[INFO]13:12:50:387-test_major.py:34 >> 请求头headers:{'Content-Type': 'application/json', 'Cookie': 'user_id=336928044'}
+[INFO]13:12:50:390-test_major.py:36 >> 请求body:{'file_id': '1111', 'status': 'edit'}
+[INFO]13:12:50:393-test_major.py:37 >> 请求被测服务接口
+[INFO]13:12:50:397-test_major.py:41 >> 桩接收消息
+[INFO]13:12:50:544-test_major.py:44 >> 校验fileApp桩收到的消息
+[INFO]13:12:50:546-test_major.py:48 >> 桩服务回复正常消息
+[INFO]13:12:52:561-test_major.py:21 >> 【前置】清空file的文件协同用户
+[INFO]13:12:52:701-logsMethod.py:51 >> Class Name: FileAppTestCase 
+[INFO]13:12:52:704-logsMethod.py:52 >> Method Name: testCase02_fileApp_server_down
+[INFO]13:12:52:706-logsMethod.py:53 >> Test Description: 请求文档编辑接口，fileApp服务down  expect：文档编辑返回500  body为SERVER ERROR
+[INFO]13:12:52:709-test_major.py:57 >> 请求被测服务接口
+[INFO]13:12:52:713-test_major.py:63 >> 请求文件服务，桩receive消息,被测服务校验文件是否存在
+[INFO]13:12:52:750-test_major.py:66 >> 校验fileApp桩收到的消息
+[INFO]13:12:52:753-test_major.py:73 >> 桩回复消息
+[INFO]13:12:54:759-test_major.py:21 >> 【前置】清空file的文件协同用户
+[INFO]13:12:54:889-logsMethod.py:51 >> Class Name: FileAppTestCase 
+[INFO]13:12:54:892-logsMethod.py:52 >> Method Name: testCase03_fileApp_server_timeout
+[INFO]13:12:54:894-logsMethod.py:53 >> Test Description: 请求文档编辑接口，fileApp超时返回403状态码，expect文档编辑接返回504  body为SERVER TIMEOUT
+        
+[INFO]13:12:54:896-test_major.py:83 >> 请求被测服务接口
+[INFO]13:12:54:900-test_major.py:91 >> 请求文件服务，桩receive消息,被测服务校验文件是否存在
+[INFO]13:12:54:920-test_major.py:94 >> 校验fileApp桩收到的消息
+[INFO]13:13:04:930-test_major.py:99 >> 桩回复消息
+[INFO]13:13:06:942-test_major.py:21 >> 【前置】清空file的文件协同用户
+[INFO]13:13:07:076-logsMethod.py:51 >> Class Name: FileAppTestCase 
+[INFO]13:13:07:079-logsMethod.py:52 >> Method Name: testCase04_fileApp_res_403
+[INFO]13:13:07:081-logsMethod.py:53 >> Test Description: 请求文档编辑接口，fileApp返回403状态码，expect文档编辑接返回500  body为SERVER ERROR
+        
+[INFO]13:13:07:083-test_major.py:109 >> 请求被测服务接口
+[INFO]13:13:07:087-test_major.py:115 >> 请求文件服务，桩receive消息,被测服务校验文件是否存在
+[INFO]13:13:07:114-test_major.py:117 >> 校验fileApp桩收到的消息
+[INFO]13:13:07:116-test_major.py:122 >> 桩回复消息
+[INFO]13:13:09:130-test_major.py:21 >> 【前置】清空file的文件协同用户
+[INFO]13:13:09:261-logsMethod.py:51 >> Class Name: FileAppTestCase 
+[INFO]13:13:09:264-logsMethod.py:52 >> Method Name: testCase05_fileApp_res_text
+[INFO]13:13:09:267-logsMethod.py:53 >> Test Description: 请求文档编辑接口，fileApp返回异常文本，expect文档编辑接返回504  body为SERVER ERROR
+        
+[INFO]13:13:09:271-test_major.py:132 >> 请求被测服务接口
+[INFO]13:13:09:277-test_major.py:138 >> 请求文件服务，桩receive消息,被测服务校验文件是否存在
+[INFO]13:13:09:306-test_major.py:140 >> 校验fileApp桩收到的消息
+[INFO]13:13:09:309-test_major.py:145 >> 桩回复消息

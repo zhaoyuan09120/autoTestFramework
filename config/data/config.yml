@@ -1,0 +1,86 @@
+createGroup:
+  path: '/v3/notesvr/set/notegroup'
+  methods: 'post'
+  mustKeys:
+    - groupId
+    - groupName
+  notMustKeys:
+    - remove
+  bodyBase: { }
+  expectBase: { }
+
+CreateNoteInput:
+  path: '/v3/notesvr/set/notegroup'
+  mustKeys:
+    - noteId
+    - title
+    - summary
+    - body
+    - localContentVersion
+    - BodyType
+  notMustKeys: { }
+  bodyBase: { }
+  expectBase: { }
+
+deleteGroup:
+  path: '/v3/notesvr/set/notegroup'
+  methods: 'post'
+  mustKeys:
+    - groupId
+    - groupName
+  notMustKeys:
+    - remove
+  bodyBase: { }
+  expectBase: { }
+
+deleteNote:
+  path: '/v3/notesvr/set/delete'
+  mustKeys:
+    - noteId
+    - noteName
+  notMustKeys:
+  bodyBase: { }
+  expectBase: { }
+
+uploadNoteInfo:
+  path: '/v3/notesvr/set/noteinfo'
+  mustKeys:
+    - noteId
+  notMustKeys:
+    - star
+    - remindTime
+    - remindType
+    - groupId
+  bodyBase: { }
+  expectBase: { }
+
+GetNoteForCalendar:
+  path: '/v3/notesvr/web/getnotes/remind'
+  mustKeys:
+    - remindStartTime
+    - remindEndTime
+    - startIndex
+    - rows
+  notMustKeys: { }
+  bodyBase: { }
+  expectBase: { }
+
+CreateGroupInput:
+  path: '/v3/notesvr/set/notegroup'
+  mustKeys:
+    - groupId
+    - groupName
+  notMustKeys:
+    - order
+  bodyBase: { }
+  expectBase: { }
+
+
+
+DeleteGroupInput:
+  path: '/notesvr/delete/notegroup'
+  mustKeys:
+    - groupId
+  notMustKeys: {}
+  bodyBase: { }
+  expectBase: { }
