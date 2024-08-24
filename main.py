@@ -33,7 +33,7 @@ if __name__ == '__main__':
     suite = unittest.TestLoader().discover(DIR + '/testCase', pattern=pattern)
 
     result = BeautifulReport(suite)
-    result.report(filename="report.html", description='测试报告', report_dir="./report/")
+    result.report(filename="report.html", description='测试报告', report_dir="./report")
 
     # server stop
     os.chdir(DIR + '/app')
